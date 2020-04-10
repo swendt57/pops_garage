@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Londrina+Solid&family=Kalam:wght@700&family=Permanent+Marker&display=swap');
+
+
+/* BS OR = Bootstrap Override */
+
+/*---------------General Styles---------------*/
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    /*color: ghostwhite;*/
+}
+
+/*---------------Header---------------*/
+
+.title {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    color: #d9112d;
+    height: 43px;
+    /*text-shadow: #ccc 2px 2px 2px;*/
+    -webkit-text-stroke: 1px black;
+}
+
+.subtitle {
+    font-family: "Boogaloo", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #181cb3;
+    letter-spacing: .09rem;
+    height:22px;
+}
+
+.tag-line {
+    font-family: "Kalam", sans-serif;
+    font-size: .65em;
+}
+
+
+.logo-container {
+    text-align: center;
+    height: 110px;
+    /*border: solid 1px black;*/
+}
+
+.logo-wrapper {
+    /*border: solid 1px red;*/
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+}
+
+/* BS OR */
+.navbar {
+    /* do not change these first six! */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 119px;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    position: relative;
+}
+
+.nav-link {
+    font-family: "Boogaloo", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f6f3c8;
+    /*width: 100%;*/
+    /*margin-bottom: 40px;*/
+}
+
+/*collapse.show{*/
+/*    !*width: 100%;*!*/
+/*    background-color: red;*/
+/*}*/
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    .nav-link {
+        background-color: transparent;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    /* BS OR */
+    .navbar {
+        max-width: 85%;
+    }
+}
