@@ -12,13 +12,34 @@ class App extends Component {
     constructor(props) {
         super(props);
 
+        this.state = {
+            hideNav: false
+        }
     }
+
+    resize = () => {
+        let currentHideNav = (window.innerWidth <= 550);
+        console.log('current: ' + (window.innerWidth <= 550))
+        if (currentHideNav !== this.state.hideNav) {
+            this.setState({hideNav: currentHideNav});
+        }
+        console.log(this.state.hideNav)
+        // return currentHideNav;
+    };
+
+    componentDidMount() {
+        window.addEventListener("resize", this.resize.bind(this));
+        this.resize();
+    }
+
+    // componentDidUpdate(prevProps, prevState, snapshot) {
+    // }
 
     render() {
         return (
             <React.Fragment>
 
-              <HeaderNav />
+              <HeaderNav hideNav={this.state.hideNav}/>
 
             </React.Fragment>
         );

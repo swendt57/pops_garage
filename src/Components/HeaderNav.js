@@ -10,27 +10,46 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 
-let beachDiv = {
-    backgroundImage: "url(" + banner + "), url(" + bg + ")",
-    backgroundRepeat: "no-repeat, repeat",
-    backgroundPositionX: "120px, 0"
-};
+const HeaderNav = props => {
+    const {
+        hideNav
+    } = props;
 
-let bgDiv = {
-    backgroundImage: "url(" + bg + ")",
-    backgroundRepeat: "repeat",
-    height: "119px",
-    margin: "0",
-    padding: "0"
-};
+    // let smallScreen = {hideNav};
+    console.log({hideNav})
+    // console.log("in HN: " + {hideNav})
 
-const HeaderNav = () => {
+    // let smallScreen = {hideNav};
+
+    let beachDiv = {};
+
+    if (props.hideNav) {
+        console.log('without banner');
+        beachDiv = {
+            backgroundImage: "url(" + bg + ")",
+            backgroundRepeat: "repeat",
+            backgroundPositionX: "0"
+        }
+    } else {
+        console.log('with banner');
+        beachDiv = {
+            backgroundImage: "url(" + banner + "), url(" + bg + ")",
+            backgroundRepeat: "no-repeat, repeat",
+            backgroundPositionX: "120px, 0"
+        }
+    }
+
+    let bgDiv = {
+        backgroundImage: "url(" + bg + ")",
+        backgroundRepeat: "repeat",
+        height: "119px",
+    };
 
     return (
         <header>
             <div className="nav-wrapper">
             <div style={bgDiv}/>
-            <Navbar bg="light" expand="lg" style={beachDiv}>
+            <Navbar bg="dark" expand="lg" style={beachDiv}>
                 <Navbar.Brand href="#home" className="logo-container">
                     <div className="logo-wrapper">
                         <div className="title">Pop's Garage</div>
@@ -41,8 +60,12 @@ const HeaderNav = () => {
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto ml-auto">
-                        <Nav.Link href="#home" className="nav-link">Home</Nav.Link>
+
+                    {/*INFO this needs to be here in order to have the buttons right justified - there has to be a better way */}
+                    {/*<Nav className="navbar-nav mr-auto mt-2 mt-md-0"></Nav>*/}
+
+                    <Nav className="text-right ml-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">Showroom</Nav.Link>
                         <Nav.Link href="#link">Tire Kicking</Nav.Link>
                         <Nav.Link href="#link">The Livery</Nav.Link>
