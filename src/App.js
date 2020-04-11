@@ -3,9 +3,8 @@ import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/styles.css';
 
-
-import HeaderNav from "./Components/HeaderNav";
-
+import HeaderNav from "./components/HeaderNav";
+import Routes from "./routes/Routes";
 
 class App extends Component {
 
@@ -13,18 +12,16 @@ class App extends Component {
         super(props);
 
         this.state = {
-            hideNav: false
+            hideBanner: false
         }
     }
 
     resize = () => {
-        let currentHideNav = (window.innerWidth <= 550);
-        console.log('current: ' + (window.innerWidth <= 550))
-        if (currentHideNav !== this.state.hideNav) {
-            this.setState({hideNav: currentHideNav});
+        let currentHideBanner = (window.innerWidth <= 550);
+
+        if (currentHideBanner !== this.state.hideBanner) {
+            this.setState({hideBanner: currentHideBanner});
         }
-        console.log(this.state.hideNav)
-        // return currentHideNav;
     };
 
     componentDidMount() {
@@ -32,16 +29,12 @@ class App extends Component {
         this.resize();
     }
 
-    // componentDidUpdate(prevProps, prevState, snapshot) {
-    // }
-
     render() {
         return (
-            <React.Fragment>
-
-              <HeaderNav hideNav={this.state.hideNav}/>
-
-            </React.Fragment>
+            <div className="App.container">
+                <HeaderNav hideBanner={this.state.hideBanner}/>
+                <Routes /> {/* Put this here, otherwise page content is inside the header*/}
+            </div>
         );
       }
 

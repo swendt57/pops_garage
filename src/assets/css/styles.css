@@ -17,7 +17,70 @@ html, body {
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 1.1rem;
+}
+
+section {
+    width: 90vw;
+    padding-top: 20px;
+    margin: auto;
+}
+
+/* BS OR */
+.container {
+    max-width: 85vw;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Boogaloo", sans-serif;
+    font-size: 1.9rem;
+    color: #181cb3;
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    section {
+        /*width: 95vw;*/
+        padding-top: 30px;
+    }
+
+    /* BS OR */
+    container {
+        /*max-width: 90vw;*/
+    }
+
+    h1 {
+        font-size: 2.1rem;
+        text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    body {
+        font-size: 1.25rem;
+    }
+
+    section {
+        width: 90vw;
+        max-width: 1450px;
+        margin: auto;
+    }
+
+    /* BS OR */
+    container {
+        width: 80vw;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
 }
 
 /*---------------Header---------------*/
@@ -29,6 +92,7 @@ body {
     color: #d9112d;
     height: 43px;
     -webkit-text-stroke: 1px black;
+    text-shadow: 2px 3px 2px rgba(120,120,120,0.8);
 }
 
 .subtitle {
@@ -69,24 +133,34 @@ body {
 
 .nav-wrapper {
     position: relative;
+    border-bottom: 2px solid black;
 }
 
 a.nav-link {
     font-family: "Boogaloo", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
-    background-color: #f6f3c8;
+    /*background-color: #f6f3c8;*/
+    /*-webkit-text-stroke: .01rem red;*/
+    text-shadow: 2px 2px 1px rgba(120,120,120,0.5);
+    background-color: #88bbda;
 }
 
 .navbar-light .navbar-nav .nav-link  {
     color: black;
+    border-radius: 8px;
 }
 
+
+/* This needs work. I am unhappy with the toggled nav. We need a background color for the entire area and then can
+change the hove value to somewhat transparent*/
 .navbar-light .navbar-nav .nav-link:hover {
-    background: rgba(255,255,255,.3);
+    background: rgba(255,255,255,1);
+    /*background-color: #88bbda;*/
     border-radius: 8px;
     color: #181cb3;
 }
+
 
 /* BS OR */
 button.navbar-toggler {
@@ -104,11 +178,17 @@ button.navbar-toggler {
 @media (min-width: 992px) {
     /* BS OR */
     .navbar {
-        max-width: 1300px;
+        max-width: 1600px;
     }
 
     a.nav-link {
-        margin-bottom: 25px;
-        background-color: transparent;
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+        background-color: #88bbda;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        background: rgba(255, 255, 255, .3);
     }
 }

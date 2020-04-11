@@ -1,3 +1,13 @@
+##Pop's Garage
+
+This is a refactor of the existing, non-responsive, traditional HTML website in React.js
+
+###Acknowledgements
+
+* Thanks to "Pop" for allowing me to muck about with his website!
+* Thanks to https://serverless-stack.com/ for a clear example of using React-Router with React-Bootstrap 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
