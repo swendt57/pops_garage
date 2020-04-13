@@ -52,8 +52,8 @@ const HeaderNav = props => {
                         <Link to="showroom" className="nav-link">Showroom</Link>
                         <Link to="tire_kicking" className="nav-link">Tire Kicking</Link>
                         <Link to="livery" className="nav-link">The Livery</Link>
-                        <Link to="club_news" className="nav-link">Club News</Link>
                         <Link to="library" className="nav-link">The Library</Link>
+                        <Link to="club_news" className="nav-link">Club News</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

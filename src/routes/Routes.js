@@ -18,9 +18,8 @@ const Routes = () => {
             <Route path="/showroom" component={Showroom}/>
             <Route path="/tire_kicking" component={TireKicking}/>
             <Route path="/livery" component={Livery}/>
-            <Route path="/club_news" component={ClubNews}/>
             <Route path="/library" component={Library}/>
-
+            <Route path="/club_news" component={ClubNews}/>
 
             {/*<Route component={NotFoundPage}/>*/}
         </Switch>

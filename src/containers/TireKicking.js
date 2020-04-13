@@ -1,4 +1,5 @@
 import React from "react";
+import nash59 from "../assets/images/59NashSWagon3.jpg";
 
 const TireKicking = props => {
 
