@@ -1,20 +1,45 @@
-import React from "react";
+import React, {Component} from "react";
+import PhotoWithDetail from "../components/PhotoWithDetail";
 
-const Library = props => {
+function assembleData() {
+    let data = require("../assets/data/library.json");
 
-    return (
-        <section>
+    let libraryArray = [];
+    Object.keys(data).forEach(function(key) {
+        libraryArray.push(data[key]);
+    });
 
-            <h1>The Library</h1>
+    return libraryArray;
+}
 
-            <div className="container">
 
-            <div>This is the library</div>
+class Library extends Component {
 
-            </div>
+    constructor(props) {
+        super(props);
 
-        </section>
-    )
+        this.state = {
+            libraryData: assembleData()
+        }
+    }
+
+    render () {
+        return (
+            <section>
+
+                <h1>The Library</h1>
+
+                <div className="container">
+
+                    {this.state.libraryData.map(item => <PhotoWithDetail key={item.title}
+                                                                         title={item.title}
+                                                                         description={item.description}
+                                                                         image_name={item.image_name} />)}
+                </div>
+
+            </section>
+        )
+    }
 };
 
 export default Library;

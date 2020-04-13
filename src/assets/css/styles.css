@@ -28,7 +28,7 @@ section {
 
 /* BS OR */
 .container {
-    max-width: 85vw;
+    max-width: 80vw;
     margin: auto;
     padding: 0;
 }
@@ -60,6 +60,10 @@ h1 {
 .car-img {
     max-width: 150px;
     margin-bottom: 5px;
+}
+
+.testDiv {
+    margin: 0;
 }
 
 /* styles for tablet */
@@ -110,7 +114,7 @@ h1 {
     }
 
     h1 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
 
     }
 
@@ -264,5 +268,29 @@ button.navbar-toggler {
     }
 }
 
+/*---------------Library---------------*/
 
-/*TESTING*/
+.book-img {
+    max-width: 125px;
+    max-height: 125px;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    .book-img {
+        width: 150px;
+        max-width: unset;
+        max-height: unset;
+    }
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    .book-img {
+        width: 175px;
+    }
+}
+
+
