@@ -1,20 +1,51 @@
-import React from "react";
+import React, {Component} from "react";
 
-const Livery = props => {
+import PhotoWithDetail from "../components/PhotoWithDetail";
 
-    return (
-        <section>
+function assembleData() {
+    let data = require("../assets/data/livery.json");
 
-            <h1>The Livery</h1>
+    let itemArray = [];
+    Object.keys(data).forEach(function(key) {
+        itemArray.push(data[key]);
+    });
 
-            <div className="container">
+    return itemArray;
+}
 
-            <div>This is the livery</div>
 
-            </div>
+class Livery extends Component {
 
-        </section>
-    )
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            liveryData: assembleData()
+        }
+    }
+
+    render () {
+        return (
+            <section>
+
+                <h1>The Livery</h1>
+
+                <div className="container">
+
+                    {this.state.liveryData.map(item =>
+                        <PhotoWithDetail key={item.title}
+                                         title={item.title}
+                                         description={item.description}
+                                         image_name={item.image_name}
+                                         image_folder="livery"
+                                         class_name="car-img"
+                                         alt_text={item.title + 'example'}/>)}
+
+                </div>
+
+            </section>
+        )
+    }
 };
 
 export default Livery;
