@@ -34,7 +34,10 @@ class Library extends Component {
                     {this.state.libraryData.map(item => <PhotoWithDetail key={item.title}
                                                                          title={item.title}
                                                                          description={item.description}
-                                                                         image_name={item.image_name} />)}
+                                                                         image_name={item.image_name}
+                                                                         image_folder="library"
+                                                                         class_name="book-img"
+                                                                         alt_text="Book cover of: "/>)}
                 </div>
 
             </section>

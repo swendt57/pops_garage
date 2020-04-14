@@ -1,27 +1,61 @@
-import React from "react";
+import React, {Component} from "react";
 
-const Showroom = props => {
+import PhotoWithDetail from "../components/PhotoWithDetail";
 
-    return (
-        <section>
+function assembleData() {
+    let data = require("../assets/data/showroom.json");
 
-            <h1>Showroom</h1>
+    let showroomArray = [];
+    Object.keys(data).forEach(function(key) {
+        showroomArray.push(data[key]);
+    });
 
-            <div className="container">
+    return showroomArray;
+}
 
-            <div>This is showroom</div>
 
-            <p>The following is <strong>rendered as bold text</strong>.</p>
+class Showroom extends Component {
 
-            <h3>
-                Heading
-                <small className="text-muted"> with muted text</small>
-            </h3>
+    constructor(props) {
+        super(props);
 
-            </div>
+        this.state = {
+            showroomData: assembleData()
+        }
+    }
 
-        </section>
-    )
+    render () {
+        return (
+            <section>
+
+                <h1>Showroom</h1>
+
+                <div className="container">
+
+                    <h2>The Independents</h2>
+
+                    <hr/>
+
+                    {this.state.showroomData.map(item => <PhotoWithDetail key={item.title}
+                                                                          title={item.title}
+                                                                          description={item.description}
+                                                                          image_name={item.image_name}
+                                                                          image_folder="showroom"
+                                                                          class_name="car-img"
+                                                                          alt_text="A sample model from: "/>)}
+
+                    <h2>Hearses</h2>
+
+                    <hr/>
+
+                    <h2>Limousines</h2>
+
+                    <hr/>
+                </div>
+
+            </section>
+        )
+    }
 };
 
 export default Showroom;

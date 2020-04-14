@@ -41,7 +41,8 @@ aside {
     padding: 10px;
     margin: 10px;
     /*flex-shrink: 2;*/
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+    background-color: #ddd;
 
 }
 
@@ -49,22 +50,22 @@ aside {
 /*    box-sizing: border-box;*/
 /*}*/
 
-h1 {
+h1, h2 {
     font-family: "Boogaloo", sans-serif;
-    font-size: 1.9rem;
-    color: #181cb3;
     text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
     margin-bottom: 20px;
 }
 
-.car-img {
-    max-width: 150px;
-    margin-bottom: 5px;
+h1 {
+    font-size: 1.9rem;
+    color: #181cb3;
 }
 
-.testDiv {
-    margin: 0;
+h2 {
+    font-size: 1.5rem;
+    color: black;
 }
+
 
 /* styles for tablet */
 @media (min-width: 768px) {
@@ -82,13 +83,16 @@ h1 {
         /*max-width: 90vw;*/
     }
 
-    h1 {
-        font-size: 2.1rem;
+    h1, h2 {
         text-shadow: 1px 2px 2px rgba(0,0,0,0.3);
     }
 
-    .car-img {
-        max-width: 250px;
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
     }
 
     aside {
@@ -118,8 +122,9 @@ h1 {
 
     }
 
-    .car-img {
-        max-width: 300px;
+    h2 {
+        font-size: 1.9rem;
+
     }
 
     aside {
@@ -254,19 +259,67 @@ button.navbar-toggler {
     /*background: red;*/
 }
 
+.lg-car-img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
 /* styles for tablet */
 @media (min-width: 768px) {
     #home-aside-container{
         width: 300px;
     }
+
+    .lg-car-img {
+        width: 250px;
+    }
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
-    #home-aside-container{
+    #home-aside-container {
         width: 350px;
     }
+
+    .lg-car-img {
+        width: 300px;
+    }
 }
+
+
+
+/*---------------Showroom---------------*/
+
+.car-img {
+    max-width: 150px;
+    /*margin-bottom: 5px;*/
+    border: 1px solid black;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+div.col {
+    vertical-align: top;
+    text-align: justify;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    .car-img {
+        max-width: 250px;
+    }
+
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    .car-img {
+        /*height: 300px;*/
+        width: 200px;
+    }
+
+}
+
 
 /*---------------Library---------------*/
 
@@ -291,6 +344,7 @@ button.navbar-toggler {
     .book-img {
         width: 175px;
     }
+
 }
 
 
