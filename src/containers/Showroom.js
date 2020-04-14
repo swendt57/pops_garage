@@ -13,6 +13,18 @@ function assembleData() {
     return showroomArray;
 }
 
+function getDetailCode(item) {
+    return (
+        <PhotoWithDetail key={item.title}
+                         title={item.title}
+                         description={item.description}
+                         image_name={item.image_name}
+                         image_folder="showroom"
+                         class_name="car-img"
+                         alt_text="A sample model from: "/>
+    )
+}
+
 
 class Showroom extends Component {
 
@@ -36,21 +48,36 @@ class Showroom extends Component {
 
                     <hr/>
 
-                    {this.state.showroomData.map(item => <PhotoWithDetail key={item.title}
-                                                                          title={item.title}
-                                                                          description={item.description}
-                                                                          image_name={item.image_name}
-                                                                          image_folder="showroom"
-                                                                          class_name="car-img"
-                                                                          alt_text="A sample model from: "/>)}
+                    {this.state.showroomData.map(item => {
+                        return item.category === "independents" ?
+                            getDetailCode(item)
+                        :
+                            ""
+                    })}
 
                     <h2>Hearses</h2>
 
                     <hr/>
 
+                    {this.state.showroomData.map(item => {
+                        return item.category === "hearses" ?
+                            getDetailCode(item)
+                        :
+                            ""
+                    })}
+
                     <h2>Limousines</h2>
 
                     <hr/>
+
+                    {this.state.showroomData.map(item => {
+                        return item.category === "limousines" ?
+                            getDetailCode(item)
+                        :
+                            ""
+                    })}
+
+
                 </div>
 
             </section>

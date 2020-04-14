@@ -46,10 +46,6 @@ aside {
 
 }
 
-/**, *::before, *::after {*/
-/*    box-sizing: border-box;*/
-/*}*/
-
 h1, h2 {
     font-family: "Boogaloo", sans-serif;
     text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
@@ -64,6 +60,11 @@ h1 {
 h2 {
     font-size: 1.5rem;
     color: black;
+}
+
+hr {
+    border: 2px solid #aaa;
+    margin-bottom: 30px;
 }
 
 
@@ -256,7 +257,6 @@ button.navbar-toggler {
     float: right;
     width: 200px;
     padding: 0;
-    /*background: red;*/
 }
 
 .lg-car-img {
@@ -287,12 +287,10 @@ button.navbar-toggler {
 }
 
 
-
 /*---------------Showroom---------------*/
 
 .car-img {
-    max-width: 150px;
-    /*margin-bottom: 5px;*/
+    width: 150px;
     border: 1px solid black;
     margin: 0 10px 0 0;
     float: left;
@@ -301,12 +299,13 @@ button.navbar-toggler {
 div.col {
     vertical-align: top;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 /* styles for tablet */
 @media (min-width: 768px) {
     .car-img {
-        max-width: 250px;
+        width: 175px;
     }
 
 }
