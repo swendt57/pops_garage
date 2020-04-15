@@ -43,6 +43,6 @@ class Library extends Component {
             </section>
         )
     }
-};
+}
 
 export default Library;

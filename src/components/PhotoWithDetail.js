@@ -6,8 +6,13 @@ const PhotoWithDetail = props => {
         <div className="table">
             <div className="row">
                 <div className="col"><img src={window.location.origin + '/assets/images/' + props.image_folder + '/' + props.image_name}
-                                          className={props.class_name} alt={props.alt_text + props.title} /> <strong>{props.title}</strong>&mdash;{props.description}</div>
+                                          className={props.class_name} alt={props.alt_text + props.title} /> <strong>{props.title}</strong>&mdash;{props.description}
+
+                      <a href={props.link}>Test Link</a>
+
+                </div>
             </div>
+
             <hr/>
         </div>
     )

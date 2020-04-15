@@ -1,13 +1,15 @@
 [
 	{
 	"title": "Restoring a 1953 Nash Rambler Custom Convertible",
-	"description": "The Rambler Custom convertible for 1953, when 3,284 were assembled , featured an electrically operated top that opened and closed like a roll-top desk on the fixed side-window frames. They came standard with a deluxe steering wheel, fancier upholstery, foam seat cushions, directional signals, clock, courtesy lights, chrome wheel discs, and a Continental spare, all very lavish by 1950s standards.",
-	"image_name": "BackFinal.jpg"
+	"description": "The <a href=\"#\">Rambler Custom convertible</a> for 1953, when 3,284 were assembled , featured an electrically operated top that opened and closed like a roll-top desk on the fixed side-window frames. They came standard with a deluxe steering wheel, fancier upholstery, foam seat cushions, directional signals, clock, courtesy lights, chrome wheel discs, and a Continental spare, all very lavish by 1950s standards.",
+	"image_name": "BackFinal.jpg",
+	"link": "/showroom"
 	},
 	{
 	"title": "The Metropolitan",
 	"description": "The Metropolitan was the first small American car designed for mass production. It was designed by William J. Flajole, for Nash Motor Division of Nash-Kelvinator Corporation but built by Austin Motor Company of Birmingham, England. First marketed as Nashes, later also as Hudson Metropolitans after the two companies merged as American Motors Corporation in 1954. It became a stand-alone brand neer the end of its run.",
-	"image_name": "metroorange-white.jpg"
+	"image_name": "metroorange-white.jpg",
+	"link": "/metropolitan_story"
 	},
 	
 	{

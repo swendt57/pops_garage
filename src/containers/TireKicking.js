@@ -39,7 +39,8 @@ class TireKicking extends Component {
                                          image_name={item.image_name}
                                          image_folder="tire_kicking"
                                          class_name="car-img"
-                                         alt_text={item.title + 'example'}/>)}
+                                         alt_text={item.title + 'example'}
+                                        link={item.link}/>)}
 
                 </div>
 
@@ -47,6 +48,6 @@ class TireKicking extends Component {
             </section>
         )
     }
-};
+}
 
 export default TireKicking;
