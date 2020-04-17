@@ -18,11 +18,12 @@ html, body {
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
+    margin-top: 120px;
 }
 
 section {
     width: 90vw;
-    /*margin-top: 120px;*/
+    padding-top: 15px;
     margin: auto;
 }
 
@@ -55,7 +56,7 @@ h1 {
     font-size: 1.9rem;
     color: #181cb3;
     margin-bottom: 30px;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 h2 {
@@ -364,3 +365,27 @@ div.col {
 }
 
 
+/*---------------Features---------------*/
+
+.feature-img {
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 15px;
+    float: right;
+}
+
+/* styles for tablet */
+@media (min-width: 768px) {
+    .feature-img {
+        width: 175px;
+    }
+
+}
+
+/* styles for desktop */
+@media (min-width: 992px) {
+    .feature-img {
+        width: unset;
+    }
+
+}

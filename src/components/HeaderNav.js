@@ -32,7 +32,7 @@ const HeaderNav = props => {
         // backgroundPositionY: "1px",
         // height: "100%",
         zIndex: "100",
-        marginBottom: "20px;",
+        marginBottom: "20px",
         borderBottom: "2px solid black"
     };
 
