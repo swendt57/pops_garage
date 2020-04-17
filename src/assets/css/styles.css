@@ -374,6 +374,14 @@ div.col {
     float: right;
 }
 
+.rambler-list {
+    font-weight: bold;
+}
+
+.rambler-list li {
+    margin: 8px auto;
+}
+
 /* styles for tablet */
 @media (min-width: 768px) {
     .feature-img {

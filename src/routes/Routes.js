@@ -4,10 +4,11 @@ import React from "react";
 import Home from '../containers/Home';
 import Showroom from '../containers/Showroom';
 import TireKicking from '../containers/TireKicking';
-import MetropolitanStory from '../containers/MetropolitanStory';
 import Livery from '../containers/Livery';
 import ClubNews from '../containers/ClubNews';
 import Library from '../containers/Library';
+import MetropolitanStory from '../containers/MetropolitanStory';
+import NashRambler from '../containers/NashRambler';
 
 // import NotFoundPage from '../components/NotFoundPage';
 
@@ -23,6 +24,7 @@ const Routes = () => {
             <Route path="/library" component={Library}/>
             <Route path="/club_news" component={ClubNews}/>
             <Route path="/metropolitan_story" component={MetropolitanStory}/>
+            <Route path="/nash_rambler" component={NashRambler}/>
 
             {/*<Route component={NotFoundPage}/>*/}
         </Switch>

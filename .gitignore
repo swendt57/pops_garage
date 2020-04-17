@@ -25,6 +25,4 @@ git mv
 .idea/workspace.xml
 .idea/
 
-package-lock.json
-
 public/bootstrap.css
