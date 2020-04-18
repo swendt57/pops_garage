@@ -9,7 +9,9 @@ import ClubNews from '../containers/ClubNews';
 import Library from '../containers/Library';
 import MetropolitanStory from '../containers/MetropolitanStory';
 import NashRambler from '../containers/NashRambler';
-import LandCruiser from "../containers/LandCruiser";
+import LandCruiser from '../containers/LandCruiser';
+import BeepBeep from '../containers/BeepBeep';
+import CalendarArt from "../containers/CalendarArt"
 
 // import NotFoundPage from '../components/NotFoundPage';
 
@@ -27,6 +29,8 @@ const Routes = () => {
             <Route path="/metropolitan_story" component={MetropolitanStory}/>
             <Route path="/nash_rambler" component={NashRambler}/>
             <Route path="/land_cruiser" component={LandCruiser}/>
+            <Route path="/beep_beep" component={BeepBeep}/>
+            <Route path="/calendar_art" component={CalendarArt}/>
 
             {/*<Route component={NotFoundPage}/>*/}
         </Switch>

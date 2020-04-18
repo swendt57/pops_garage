@@ -1,0 +1,66 @@
+[
+	{
+		"title": "1935 Hudson",
+		"description": "The \"Electric Hand\" vacuum-powered automatic gearshift and the industry's first all-steel body were two notable contributions in 1935 from the Hudson Motor Car Company. This 4-passenger model (with rumble seat) on the 117-inch wheelbase with its 113 hp engine, could be bought for a mere $995.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1935Hudson-1.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1938 Hudson",
+		"description": "The official pace car for the 1938 Indianapolis 500, this Hudson convertible was an example of Hudson's 112 series, introduced in January 1938, to mark Hudson's entry into the small economy car market. Its 6-cylinder engine took 35 seconds to reach 60 mph",
+		"image_folder": "features/calendar_art",
+		"image_name": "1938Hudson-2.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1935 Nash",
+		"description": "Nash's offerings for 1935 included two \"Advanced Eight\" models and two \"Ambassador\" models, like the one shown here. Each featured the straight eight engine with its 260.8 cubic inch displacement and 100 hp at 3400 R.P.M. The new fastback “Aeroform” styling was also a prominent feature of these luxury models.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1935Nash-3.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1940 Nash",
+		"description": "Included in Nash's offerings for 1940 was this \"special\" custom bodied Ambassador 8 Cabriolet Convertible, designed by Count Alexis de Sakhnoffsky, who had previously designed the 1929 Cord Coupe. Priced at around $1295, it featured a 115 hp 260.8 cubic inch engine.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1940Nash-4.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1935 Packard",
+		"description": "For 1935, Packard introduced a new model, the 120, which featured newly designed 110 hp L-head eight-cylinder engine, independent front suspension and hydraulic brakes. Signaling Packard's move toward more affordably priced cars, this \"medium-priced\" Convertible Coupe sold for a modest $1070.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1935Packard-5.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1939 Packard",
+		"description": "\"Ask the Man Who Owns One\" said Packard's 1939 ad slogan, and many celebrities were Packard owners. This Packard Darrin Convertible Victoria was custom-built (as were all Darrins) for a man with his own reputation - famed circus animal trainer Clyde Beatty.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1939Packard-6.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1935 Studebaker",
+		"description": "A \"smash hit\" with the public upon its introduction in 1926, Studebaker's \"President\" line lost none of its momentum, even in the depression of 1935. This President Coupe, with an eight-cylinder 250 cubic inch 110 hp engine sold for $1245 and clearly demonstrates why the public adored the President.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1935Studebaker-7.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	},
+	{
+		"title": "1940 Studebaker",
+		"description": "The official pace car for the Indianapolis 500 in May of 1940, this Studebaker Champion Deluxe Club Sedan weighed 2260 pounds and was powered by a 78 hp motor averaging 27 miles per gallon. A similar Champion could be bought off the showroom floor for $745.",
+		"image_folder": "features/calendar_art",
+		"image_name": "1940Studebaker-8.jpg",
+		"class_name": "large-img",
+		"alt_text": "Drawing of "
+	}
+]
