@@ -6,7 +6,7 @@ This is a refactor of the existing, non-responsive, traditional HTML website in 
 
 * Thanks to "Pop" for allowing me to muck about with his website!
 * Thanks to https://serverless-stack.com/ for a clear example of using React-Router with React-Bootstrap 
-
+* Thanks to Xiao Lin (linxtion) for his work on the React Image Gallery
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

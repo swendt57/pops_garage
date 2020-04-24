@@ -1,5 +1,4 @@
 import React from "react";
-import PhotoWithDetail from "./PhotoWithDetail";
 
 const PhotoAndCaption = props => {
 

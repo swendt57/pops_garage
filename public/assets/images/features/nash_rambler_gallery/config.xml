@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	buttonBarPosition="top"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText=""
+	backButtonUrl=""
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="5"
+	enableLooping="true"
+	frameWidth="1"
+	imageFrameColor="rgba(255,255,255,1)"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
+	showAutoPlayButton="true"
+	captionPosition="below_image"
+	captionHAlign="center"
+	showImageNumber="false"
+	showSplashPage="never"
+	imageNavPosition="stage"
+	imageNavPadding="50"
+>
+
+  <image imageURL="images/1r-originalcarwithbulletholes.jpg"
+	linkURL="images/1r-originalcarwithbulletholes.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Original car as found sitting in Montana complete with bullet holes in the door</caption>
+  </image>
+  <image imageURL="images/2r-insideaftercleaningoutmud.jpg"
+	linkURL="images/2r-insideaftercleaningoutmud.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The car was full of mud after years of sitting out in the open. It starts to look a little better after the mud is gone.</caption>
+  </image>
+  <image imageURL="images/3r-dismantlingthecar.jpg"
+	linkURL="images/3r-dismantlingthecar.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Home in my shop in Fargo, the work of dismantling the car begins.</caption>
+  </image>
+  <image imageURL="images/4r-dismantlingthecar2.jpg"
+	linkURL="thumbs/4r-dismantlingthecar2.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The dismantling continues with the little Rambler up in the air.</caption>
+  </image>
+  <image imageURL="images/5r-frontendafterpullingmotor.jpg"
+	linkURL="thumbs/5r-frontendafterpullingmotor.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The engine compartment after pulling the original motor.</caption>
+  </image>
+  <image imageURL="images/6r-quarterpanelbeyondrepair2.jpg"
+	linkURL="images/6r-quarterpanelbeyondrepair2.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The driver's side rear quarter panel had too much body filler to be saved.</caption>
+  </image>
+  <image imageURL="images/7r-removedoldquarterpanel.jpg"
+	linkURL="images/7r-removedoldquarterpanel.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The original rear quarter panel removed and awaiting installation of the new panel.</caption>
+  </image>
+  <image imageURL="images/8r-newquarterpanel.jpg"
+	linkURL="images/8r-newquarterpanel.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The replacement rear quarter panel.</caption>
+  </image>
+  <image imageURL="images/9r-Oklahomamotor.jpg"
+	linkURL="images/9r-Oklahomamotor.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The replacement motor was taken from a car found in Oklahoma.</caption>
+  </image>
+  <image imageURL="images/10r-Oklahomamotor2.jpg"
+	linkURL="images/10r-Oklahomamotor2.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Oklahoma motor on stand ready to be rebuilt.</caption>
+  </image>
+  <image imageURL="images/11r-pistons.jpg"
+	linkURL="images/11r-pistons.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The pistons from replacement motor.</caption>
+  </image>
+  <image imageURL="images/12r-strippeddowncarandmotorparts.jpg"
+	linkURL="images/12r-strippeddowncarandmotorparts.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The stripped down car and motor parts.</caption>
+  </image>
+  <image imageURL="images/13r-rebuildingrearend.jpg"
+	linkURL="images/13r-rebuildingrearend.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Rebuilding the rear end.</caption>
+  </image>
+  <image imageURL="images/14r-cablesandpulleysforconvertibletop.jpg"
+	linkURL="images/14r-cablesandpulleysforconvertibletop.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The cables and pulleys for convertible top.</caption>
+  </image>
+  <image imageURL="images/15r-convertibletopdrivemotore.jpg"
+	linkURL="images/15r-convertibletopdrivemotore.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The drive motor for the convertible top.</caption>
+  </image>
+  <image imageURL="images/16r-startingtogetbacktogether.jpg"
+	linkURL="images/16r-startingtogetbacktogether.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The Rambler is starting to get back together.</caption>
+  </image>
+  <image imageURL="images/17r-readyfornewmotorandtransmission.jpg"
+	linkURL="images/17r-readyfornewmotorandtransmission.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The engine bay ready for new motor and transmission.</caption>
+  </image>
+  <image imageURL="images/18r-rebuiltmotorandtransmissioninstalled.jpg"
+	linkURL="images/18r-rebuiltmotorandtransmissioninstalled.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The rebuilt Oklahoma motor and transmission is installed.</caption>
+  </image>
+  <image imageURL="images/19r-chrome.jpg"
+	linkURL="images/19r-chrome.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The original chrome, and some donors, waiting for re-chroming. Note the choice coming between two flying ladies.</caption>
+  </image>
+  <image imageURL="images/20r-oldinteriorparts.jpg"
+	linkURL="images/20r-oldinteriorparts.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The old interior's parts and trim.</caption>
+  </image>
+  <image imageURL="images/21r-almostreadyforpaint.jpg"
+	linkURL="images/21r-almostreadyforpaint.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The Rambler is almost ready for paint.</caption>
+  </image>
+  <image imageURL="images/22r-newtopinstalledandworking.jpg"
+	linkURL="images/22r-newtopinstalledandworking.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The new top is installed and working.</caption>
+  </image>
+  <image imageURL="images/23r-interiordone.jpg"
+	linkURL="images/23r-interiordone.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The new interior is installed and complete</caption>
+  </image>
+  <image imageURL="images/24r-doneexceptforhubcaps2.jpg"
+	linkURL="images/24r-doneexceptforhubcaps2.jpg'"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The car is done except for the hubcaps.</caption>
+  </image>
+  <image imageURL="images/25r-doneexceptforhubcaps.jpg"
+	linkURL="images/25r-doneexceptforhubcaps.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Another angle of the finished car waiting for hubcaps.</caption>
+  </image>
+  <image imageURL="images/26r-done-front.jpg"
+	linkURL="images/26r-done-front.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>"I'm ready for my close-up."</caption>
+  </image>
+  <image imageURL="images/27r-Done-back.jpg"
+	linkURL="images/27r-Done-back.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The Continental Kit on the rear of the sexy little Rambler.</caption>
+  </image>
+  <image imageURL="images/28r-done-side.jpg"
+	linkURL="images/28r-done-side.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>All done, the chic and stylish Rambler showing off in downtown Fargo.</caption>
+  </image>
+</juiceboxgallery>

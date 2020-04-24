@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pop's Garage",
+  "name": "Pop's Garage website React refactor",
   "icons": [
     {
       "src": "favicon.ico",
