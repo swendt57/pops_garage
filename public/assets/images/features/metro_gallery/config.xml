@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	buttonBarPosition="top"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText=""
+	backButtonUrl=""
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="5"
+	enableLooping="true"
+	frameWidth="1"
+	imageFrameColor="rgba(255,255,255,1)"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
+	showAutoPlayButton="true"
+	captionPosition="below_image"
+	captionHAlign="center"
+	showImageNumber="false"
+	showSplashPage="never"
+	imageNavPosition="stage"
+	imageNavPadding="50"
+>
+
+  <image imageURL="images/metro1.jpg"
+	linkURL="images/metro1.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>An early design sketch by designer Bill Flajole
+shows basic small car concept for the Metropolitan.</caption>
+  </image>
+  <image imageURL="images/metro2.jpg"
+	linkURL="images/metro2.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The Metropolitan design, based on the big Nash,
+begins to come together in a later sketch by Flajole.</caption>
+  </image>
+  <image imageURL="images/metro3.jpg"
+	linkURL="images/metro3.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The first production Metropolitans had a distinctive
+floating single-bar grille reminiscent of the 1950 Americican.</caption>
+  </image>
+  <image imageURL="images/metro4.jpg"
+	linkURL="thumbs/metro4.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>With a wheelbase of just 85 inches,
+the Metropolitan was the smallest American car on the road.</caption>
+  </image>
+  <image imageURL="images/metro5.jpg"
+	linkURL="thumbs/metro5.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>By 1961 the Met had an oval mesh grille and the Nash/Hudson center medallion had been replace by a single red "M" on a black background.</caption>
+  </image>
+  <image imageURL="images/metro6.jpg"
+	linkURL="images/metro6.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Production ended on April 19, 1961. Over a year's supply of the little cars remained in stock and were sold as 1962 models.
+American Motors announced the end of the Metropolitan on March 23, 1962.</caption>
+  </image>
+  <image imageURL="images/metro7.jpg"
+	linkURL="images/metro7.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Although it never made it into production, Pinin Farina built one prototype Met wagon. It survives today in a small Metropolitan museum in North Hollywood, California.</caption>
+  </image>
+  <image imageURL="images/metro9.jpg"
+	linkURL="images/metro9.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Mets are a favorite subject for car illustrators, Life's a Met is an original watercolor by Rose Maloy (RM AUTO ART, PO box 179, Hershey PA 17033)</caption>
+  </image>
+  <image imageURL="images/metro10.jpg"
+	linkURL="images/metro10.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Pop's favorite, a Metropolitan dressed for holiday parade duty in San Diego.</caption>
+  </image>
+  <image imageURL="images/metro11.jpg"
+	linkURL="images/metro11.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The highly detailed, 1:18 scale diecast model of the
+1959 Metropolitan in Teal &amp; White from Highway 61 Collectables</caption>
+  </image>
+  <image imageURL="images/metro12.jpg"
+	linkURL="images/metro12.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Highway 61 used a real 1959 Red &amp; White Metropolitan in their display to launch the new diecast model at the Chicago Toy Fair.</caption>
+  </image>
+</juiceboxgallery>
