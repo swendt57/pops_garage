@@ -8,7 +8,7 @@
 	backButtonUrl=""
 	enableAutoPlay="true"
 	autoPlayOnLoad="true"
-	displayTime="5"
+	displayTime="4"
 	enableLooping="true"
 	frameWidth="1"
 	imageFrameColor="rgba(255,255,255,1)"
