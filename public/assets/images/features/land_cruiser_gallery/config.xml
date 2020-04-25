@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	buttonBarPosition="top"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText=""
+	backButtonUrl=""
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="4"
+	enableLooping="true"
+	frameWidth="2"
+	imageFrameColor="rgba(103,153,176,1)"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
+	showAutoPlayButton="true"
+	captionPosition="below_image"
+	captionHAlign="center"
+	showImageNumber="false"
+	showSplashPage="never"
+	imageNavPosition="stage"
+	imageNavPadding="50"
+>
+
+  	<image imageURL="images/stude101.jpg"
+		linkURL="images/stude101.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude102.jpg"
+		linkURL="images/stude102.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude103.jpg"
+		linkURL="images/stude103.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude104.jpg"
+		linkURL="thumbs/stude104.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude105.jpg"
+		linkURL="thumbs/stude105.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude106.jpg"
+		linkURL="images/stude106.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude107.jpg"
+		linkURL="images/stude107.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude108.jpg"
+		linkURL="images/stude108.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+  	<image imageURL="images/stude109.jpg"
+		linkURL="images/stude109.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+	<image imageURL="images/stude110.jpg"
+		linkURL="images/stude110.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	  </image>
+  	<image imageURL="images/stude111.jpg"
+		linkURL="images/stude111.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+	<image imageURL="images/stude112.jpg"
+		linkURL="images/stude112.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+  	</image>
+</juiceboxgallery>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../../../../bootstrap.min.css"/>
+
+    <title>Studebaker Land Cruiser</title>
+
+</head>
+<body>
+<script>
+    function goBack() {
+        window.history.back()
+    }
+</script>
+<div style="background-color: black;">
+    <button class="btn btn-success" onclick="goBack()">Back to the Land Cruiser story</button>
+</div>
+
+<section>
+    <div id="gallery-content">
+        <div id="juicebox-parent">
+            <!--START JUICEBOX EMBED-->
+            <script src="jbcore/juicebox.js"></script>
+            <script>
+                let height = window.innerHeight - 37;
+
+                new juicebox({
+                    containerId: 'juicebox-container',
+                    backgroundColor: "black",
+                    galleryHeight: height,
+                    galleryWidth: '100%'
+                });
+
+            </script>
+            <div id="juicebox-container"></div>
+            <!--END JUICEBOX EMBED-->
+
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
