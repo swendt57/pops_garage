@@ -394,77 +394,20 @@ div.col {
     text-align: center;
 }
 
-/*.image-gallery:root {*/
-/*    background: #ff0000;*/
-/*}*/
-
-
-/*.gallery-page:root {*/
-/*    background-color: black;*/
-/*}*/
-
-/* Image Gallery OR */
-.image-gallery-content:not(.fullscreen) .image-gallery-slides  {
-    /*margin-right: calc((screen_width - 475) * .22 );*/
-    margin-right: calc((100vw - 475px) * .22 );
-    margin-left: calc((100vw - 475px) * .49);
-    /*margin-top: 50px;*/
-
-    /*height: 300px;*/
-    overflow: unset;
-    /*max-height: 500px;*/
+.feature-photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 460px));
+    /*grid-template-rows: minmax(250px, 1fr);*/
+    grid-gap: 15px;
+    align-self: center;
 }
 
-/* Image Gallery OR */
-.image-gallery-content:root {
-    background-color: #4fe21f;
+.nash-remodel-img {
+    width: 450px;
+    border: 1px solid black;
+    /*box-shadow: 2px 4px 4px rgba(0,0,0,0.7);*/
+
 }
-
-/* Image Gallery OR */
-.image-gallery-image {
-    margin-top: calc((100vh - 475px) * .50);
-    /*margin-top: 200px;*/
-    width: 100%;
-    height: 100%;  /* this one */
-    /*padding-top: 75%; !* Make the image wrapping div take a ratio of 3:4 *!*/
-    position: relative;
-}
-
-/* Image Gallery OR */
-.image-gallery-description {
-    bottom: -70px!important;
-    position: unset;
-    margin: 0 auto;
-}
-
-
-/*.image-gallery-content.image-gallery-image   .image-gallery-slides
- {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    padding-top: 25%; !* Make the image wrapping div take a ratio of 3:4 *!*/
-/*    !*padding-left: 200px;*!*/
-/*    position: relative;*/
-/*}*/
-
-/* .image-gallery-content:not(.fullscreen)*/
-/*img {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    object-fit: cover;*/
-/*    object-position: center center;*/
-/*    width: 475px;*/
-/*    height: 300px*/
-/*}*/
-
-
-/*.image-gallery {*/
-/*width: 400px;*/
-/*}*/
-
-/*.image-gallery.fullscreen {*/
-/*width: 600px;*/
-/*}*/
 
 /* styles for tablet */
 @media (min-width: 768px) {
