@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 
-    import nash59 from '../assets/images/59NashSWagon3.jpg';
+import nash59 from '../assets/images/59NashSWagon3.jpg';
 
 const Home = () => {
 

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+		buttonBarPosition="top"
+		showSmallBackButton="true"
+		backButtonPosition="top"
+		backButtonText=""
+		backButtonUrl=""
+		enableAutoPlay="true"
+		autoPlayOnLoad="true"
+		displayTime="4"
+		enableLooping="true"
+		frameWidth="2"
+		imageFrameColor="rgba(103,153,176,1)"
+		imagePadding="10"
+		thumbWidth="128"
+		thumbHeight="85"
+		thumbCornerRadius="5"
+		maxThumbRows="1"
+		thumbSelectedFrameWidth="3"
+		thumbHoverFrameWidth="3"
+		showAutoPlayButton="true"
+		captionPosition="below_image"
+		captionHAlign="center"
+		showImageNumber="false"
+		showSplashPage="never"
+		imageNavPosition="stage"
+		imageNavPadding="50"
+>
+  
+  <image imageURL="images/Tri-State-24.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-24.jpg"
+	linkTarget="_blank">
+	<title>1940 Henney PACKARD 3-way Hearse</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-25.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-25.jpg"
+	linkTarget="_blank">
+	<title>1959 CADILLAC Series 75 Formal Limousine</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-26.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-26.jpg"
+	linkTarget="_blank">
+	<title>1950 Flxible BUICK Premier Combination</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-27.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-27.jpg"
+	linkTarget="_blank">
+	<title>1974 Cotner Bevington OLDSMOBILE Hearse</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-28.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-28.jpg"
+	linkTarget="_blank">
+	<title>1957 Superior PONTIAC Ambulance</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-29.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-29.jpg"
+	linkTarget="_blank">
+	<title>1974 Cotner Bevington OLDSMOBILE Ambulance</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-30.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-30.jpg"
+	linkTarget="_blank">
+	<title>1973 Superior CADILLAC Crown End Loader</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-31.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-31.jpg"
+	linkTarget="_blank">
+	<title>1975 Miller Meteor CADILLAC Side Loader</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-32.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-32.jpg"
+	linkTarget="_blank">
+	<title>1953 PACKARD Limousine</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-33.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-33.jpg"
+	linkTarget="_blank">
+	<title>1940 Henney PACKARD Flower Car</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-34.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-34.jpg"
+	linkTarget="_blank">
+	<title>1962 Flxible BUICK Limousine</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-35.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-35.jpg"
+	linkTarget="_blank">
+	<title>1938 BUICK Flxible Classic "A"</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-36.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-36.jpg"
+	linkTarget="_blank">
+	<title>1964 BUICK National Minuteman Ambulance</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-37.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-37.jpg"
+	linkTarget="_blank">
+	<title>1976 Superior CADILLAC Crown 3-way Hearse</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-38.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-38.jpg"
+	linkTarget="_blank">
+	<title>1962 Armbruster Stageway CHRYSLER Sedan</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-39.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-39.jpg"
+	linkTarget="_blank">
+	<title>1964 M&amp;M CADILLAC Ambulance</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-40.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-40.jpg"
+	linkTarget="_blank">
+	<title>1976 M &amp; M CADILLAC Combination</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-41.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-41.jpg"
+	linkTarget="_blank">
+	<title>1964 CADILLAC Series 75 Sedan</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-42.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-42.jpg"
+	linkTarget="_blank">
+	<title>1966 Superior CADILLAC Flower Car</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-43.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-43.jpg"
+	linkTarget="_blank">
+	<title>1978 Superior CADILLAC Ambulance</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-44.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-44.jpg"
+	linkTarget="_blank">
+	<title>1939 90 Series Cadillac Limousine</title>
+    <caption></caption>
+  </image>
+  
+  <image imageURL="images/Tri-State-45.jpg"
+	thumbURL=""
+	linkURL="images/Tri-State-45.jpg"
+	linkTarget="_blank">
+	<title>1959 Superior Cadillac Royale 3-Way</title>
+    <caption></caption>
+  </image>
+  
+</juiceboxgallery>

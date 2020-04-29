@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	buttonBarPosition="top"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText=""
+	backButtonUrl=""
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="4"
+	enableLooping="true"
+	frameWidth="2"
+	imageFrameColor="rgba(103,153,176,1)"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
+	showAutoPlayButton="true"
+	captionPosition="below_image"
+	captionHAlign="center"
+	showImageNumber="false"
+	showSplashPage="never"
+	imageNavPosition="stage"
+	imageNavPadding="50"
+>
+	<image imageURL="images/Tri-State-A1.jpg"
+	   	linkURL="images/Tri-State-A1.jpg"
+	   	linkTarget="_blank">
+		<title>1854 Mertz and Riddle Horse Drawn Hearse</title>
+		<caption></caption>
+	</image>
+  	<image imageURL="images/Tri-State-1.jpg"
+		linkURL="images/Tri-State-1.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1955 STUDEBAKER Ambulet</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-2.jpg"
+		linkURL="images/Tri-State-2.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1969 Superior CADILLAC Royale Limousine-Style Funeral Coach</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-3.jpg"
+		linkURL="images/Tri-State-3.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1967 Superior PONTIAC Ambulance</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-4.jpg"
+		linkURL="thumbs/Tri-State-4.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1971 Superior CADILLAC Sovereign Landaulet Sideloader Hearse</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-5.jpg"
+		linkURL="thumbs/Tri-State-5.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>Combinations at Hudson, OH 2011 International Meet</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-6.jpg"
+		linkURL="images/Tri-State-6.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1986 CADILLAC Limousine</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-7.jpg"
+		linkURL="images/Tri-State-7.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1972 Superior CADILLAC Crown Sovereign Landaulet</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-8.jpg"
+		linkURL="images/Tri-State-8.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1957 National BUICK Ambulance</caption>
+  	</image>
+  	<image imageURL="images/Tri-State-9.jpg"
+		linkURL="images/Tri-State-9.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1967 MM CADILLAC Paramount Combination</caption>
+  	</image>
+	<image imageURL="images/Tri-State-10.jpg"
+	   	linkURL="images/Tri-State-10.jpg"
+	   	linkTarget="_blank">
+		<title></title>
+		<caption>1948 A.J. Miller CADILLAC Hearse</caption>
+	</image>
+	<image imageURL="images/Tri-State-11.jpg"
+		   linkURL="images/Tri-State-11.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1987 Eureka CADILLAC Concourse Landaulet Endloader FWD</caption>
+	</image>
+	<image imageURL="images/Tri-State-12.jpg"
+		   linkURL="images/Tri-State-12.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1962 C/B CHEVROLET Ambulance</caption>
+	</image>
+	<image imageURL="images/Tri-State-13.jpg"
+		   linkURL="images/Tri-State-13.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1975 Superior CADILLAC Ambulance</caption>
+	</image>
+	<image imageURL="images/Tri-State-14.jpg"
+		   linkURL="images/Tri-State-14.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1961 Eureka CADILLAC Combination</caption>
+	</image>
+	<image imageURL="images/Tri-State-15.jpg"
+		   linkURL="images/Tri-State-15.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1976 Miller-Meteor CADILLAC Classic Combination</caption>
+	</image>
+	<image imageURL="images/Tri-State-16.jpg"
+		   linkURL="images/Tri-State-16.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1948 S&amp;S CADILLAC Landau Hearse</caption>
+	</image>
+	<image imageURL="images/Tri-State-17.jpg"
+		   linkURL="images/Tri-State-17.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1996 CADILLAC S&amp;S Six Door Limousine</caption>
+	</image>
+	<image imageURL="images/Tri-State-18.jpg"
+		   linkURL="images/Tri-State-18.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1978 Miller-Meteor CADILLAC Combination</caption>
+	</image>
+	<image imageURL="images/Tri-State-19.jpg"
+		   linkURL="images/Tri-State-19.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1941 Henney PACKARD 4198L Custom Built Landau Funeral Coach</caption>
+	</image>
+	<image imageURL="images/Tri-State-21.jpg"
+		   linkURL="images/Tri-State-21.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1966 Miller-Meteor CADILLAC Ambulance</caption>
+	</image>
+	<image imageURL="images/Tri-State-22.jpg"
+		   linkURL="images/Tri-State-22.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1988 Superior CADILLAC Sovereign</caption>
+	</image>
+	<image imageURL="images/Tri-State-23.jpg"
+		   linkURL="images/Tri-State-23.jpg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption>1973 Miller-Meteor CADILLAC Volunteer 48" Ambulance</caption>
+	</image>
+
+</juiceboxgallery>

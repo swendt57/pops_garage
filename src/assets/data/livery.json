@@ -2,16 +2,14 @@
 	{
 	"title": "The Professional Cars",
 	"description": "A professional car is defined as a custom-bodied vehicle based on passenger car styling and specifically designed for ambulance, funeral or livery service. This on-going article contains dozens of colored, and black & white, photographs of these vehicles from calendars produced by the Tri-State Chapter of the Professional Car Society. They illustrate the last 75 years or so of many of the professional cars built and used in the United States.",
-	"image_name": "59CadillacLandauHearse.jpg"
+	"image_name": "59CadillacLandauHearse.jpg",
+	"link": "professional_cars"
 	},
 	{
 	"title": "1949 Chrysler Crown Imperial Limousine",
 	"description": "Exterior and interior factory photographs of this very rare limousine, with text and captions by the owners. First a diplomatic car, it was delivered new to the Moroccan Embassy in Washington, D.C. After 24,000 miles of official use, it was sold by the embassy to a museum. When the museum closed in 1972 it passed to a Pittsburgh collector. It is currently owned by friends from one of Pop's car clubs and resides in the San Diego area.",
-	"image_name": "CLimo1SR.jpg"
-	},
-	{
-	"title": "Hearse Photo Link",
-	"description": "These pages are maintained by Bennet Funeral Coaches in Grand Rapids, Michigan. The company sells both new and pre-used hearses and offer related services. Of particular interest to readers of Pop's Garage, they maintain an exhaustive index, listed by make, then year, of historical professional cars with excellent photographs and descriptions. They also devote a section to The Cenowa Collection of very early hearse and ambulance photographs.",
-	"image_name": "1947CadillacLimoR.jpg"
+	"image_name": "CLimo1SR.jpg",
+	"link": ""
 	}
+	
 ]

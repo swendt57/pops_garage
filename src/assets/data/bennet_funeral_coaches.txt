@@ -1,0 +1,7 @@
+,
+	{
+	"title": "Hearse Photo Link",
+	"description": "These pages are maintained by Bennet Funeral Coaches in Grand Rapids, Michigan. The company sells both new and pre-used hearses and offer related services. Of particular interest to readers of Pop's Garage, they maintain an exhaustive index, listed by make, then year, of historical professional cars with excellent photographs and descriptions. They also devote a section to The Cenowa Collection of very early hearse and ambulance photographs.",
+	"image_name": "1947CadillacLimoR.jpg",
+	"link": ""
+	}

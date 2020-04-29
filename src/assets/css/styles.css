@@ -16,7 +16,7 @@ html, body {
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: .9rem;
     margin-top: 120px;
 }
 
@@ -37,12 +37,12 @@ aside {
     /*position: relative;*/
     font-size: .85rem;
     text-align: justify;
-    border: 3px double #181cb3;
+    border: 3px double black;
     padding: 5px;
     margin-left: 15px;
     /*flex-shrink: 2;*/
     /*box-sizing: border-box;*/
-    background-color: #ddd;
+    background-color: #ccc;
 
 }
 
@@ -78,7 +78,7 @@ div.col {
 /* styles for tablet */
 @media (min-width: 768px) {
     body {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     section {
@@ -113,7 +113,7 @@ div.col {
 /* styles for desktop */
 @media (min-width: 992px) {
     body {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     section {
@@ -269,7 +269,7 @@ button.navbar-toggler {
 /*---------------Home---------------*/
 
 .home p {
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 #home-article-container{
@@ -408,6 +408,9 @@ button.navbar-toggler {
     /*grid-template-rows: minmax(250px, 1fr);*/
     grid-gap: 15px;
     align-self: center;
+    background-color: black;
+    padding: 15px 0 15px;
+    padding: 15px 0 15px;
 }
 
 .single-photo-div {
@@ -416,7 +419,7 @@ button.navbar-toggler {
 
 .nash-remodel-img {
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid white;
     /*box-shadow: 2px 4px 4px rgba(0,0,0,0.7);*/
 
 }
@@ -424,7 +427,7 @@ button.navbar-toggler {
 /* styles for tablet */
 @media (min-width: 768px) {
     .feature-img {
-        width: 175px;
+        width: 225px;
     }
 
     .feature-img-left {

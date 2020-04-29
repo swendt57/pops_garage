@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	buttonBarPosition="top"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText=""
+	backButtonUrl=""
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="4"
+	enableLooping="true"
+	frameWidth="2"
+	imageFrameColor="rgba(103,153,176,1)"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
+	showAutoPlayButton="true"
+	captionPosition="below_image"
+	captionHAlign="center"
+	showImageNumber="false"
+	showSplashPage="never"
+	imageNavPosition="stage"
+	imageNavPadding="50"
+>
+
+  	<image imageURL="images/B_and_W-1.jpg"
+		linkURL="images/B_and_W-1.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1954 PACKARD Henney 3-Way</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-2.jpg"
+		linkURL="images/B_and_W-2.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1951 DESOTO Limousine</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-3.jpg"
+		linkURL="images/B_and_W-3.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1955 CHRYSLER Crown Imperial Limousine</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-4.jpg"
+		linkURL="thumbs/B_and_W-4.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1952 CADILLAC Derham Limousine</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-5.jpg"
+		linkURL="thumbs/B_and_W-5.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1954 CADILLAC Flower Car</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-6.jpg"
+		linkURL="images/B_and_W-6.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>2-1949, 1938 CADILLAC Limousines &amp; 1941 Superior</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-7.jpg"
+		linkURL="images/B_and_W-7.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1948 Henney PACKARD Flower Car</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-8.jpg"
+		linkURL="images/B_and_W-8.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1938 S &amp; S Demascus Hearse</caption>
+  	</image>
+  	<image imageURL="images/B_and_W-9.jpg"
+		linkURL="images/B_and_W-9.jpg"
+		linkTarget="_blank">
+		<title></title>
+		<caption>1938 Henney PACKARD &amp; 1937 PACKARD Super 8 Limo</caption>
+  	</image>
+</juiceboxgallery>
