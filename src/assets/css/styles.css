@@ -16,7 +16,7 @@ html, body {
 
 body {
     font-family: "Roboto", sans-serif;
-    font-size: .9rem;
+    font-size: .95rem;
     margin-top: 120px;
 }
 
@@ -46,7 +46,7 @@ aside {
 
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Boogaloo", sans-serif;
     text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
 }
@@ -64,9 +64,16 @@ h2 {
     margin-bottom: 15px;
 }
 
+h3 {
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
 hr {
     border: 1px solid #aaa;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 div.col {
@@ -78,7 +85,7 @@ div.col {
 /* styles for tablet */
 @media (min-width: 768px) {
     body {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     section {
@@ -383,6 +390,26 @@ button.navbar-toggler {
     float: left;
 }
 
+figure {
+    /*border: 1px solid black;*/
+    width: 175px;
+    float: right;
+    border: 3px double black;
+    margin-left: 15px;
+}
+
+figure img {
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+figcaption {
+    font-size: .8rem;
+    margin: 10px;
+    text-align: justify;
+}
+
 .rambler-list {
     font-weight: bold;
 }
@@ -434,6 +461,18 @@ button.navbar-toggler {
         max-width: 225px;
     }
 
+    figure {
+        width: 250px;
+    }
+
+    figure img {
+        width: 225px;
+    }
+
+    figcaption {
+        font-size: .85rem;
+    }
+
     .nash-remodel-img {
         width: 375px;
     }
@@ -452,6 +491,18 @@ button.navbar-toggler {
 
     .feature-img-left {
         max-width: 300px;
+    }
+
+    figure {
+        width: 325px;
+    }
+
+    figure img {
+        width: 300px;
+    }
+
+    figcaption {
+        font-size: .9rem;
     }
 
     .feature-photo-container {

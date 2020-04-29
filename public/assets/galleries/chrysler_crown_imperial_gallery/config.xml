@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	buttonBarPosition="top"
+	showSmallBackButton="true"
+	backButtonPosition="top"
+	backButtonText=""
+	backButtonUrl=""
+	enableAutoPlay="true"
+	autoPlayOnLoad="true"
+	displayTime="4"
+	enableLooping="true"
+	frameWidth="1"
+	imageFrameColor="rgba(255,255,255,1)"
+	imagePadding="10"
+	thumbWidth="128"
+	thumbHeight="85"
+	thumbCornerRadius="5"
+	maxThumbRows="1"
+	thumbSelectedFrameWidth="3"
+	thumbHoverFrameWidth="3"
+	showAutoPlayButton="true"
+	captionPosition="below_image"
+	captionHAlign="center"
+	showImageNumber="false"
+	showSplashPage="never"
+	imageNavPosition="stage"
+	imageNavPadding="50"
+>
+
+  <image imageURL="images/CLimo1L.jpg"
+	linkURL="images/CLimo1L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>In 1949, the entire line received new bodies, the first change since 1940. The Crown Imperial shared the hood and front fenders with other 8-cylinder Chryslers, but the rest of the body, moldings, and interior were special. These photos are original factory shots from the Chrysler Corporation archives. Wheel covers are special to this model, with the cloisonné' Chrysler logo in the center.</caption>
+  </image>
+  <image imageURL="images/CLimo2L.jpg"
+	linkURL="images/CLimo2L.jpgpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>All other models have rounded corners on the windshield. (Note the dirty whitewalls!) Production was only at 45 limousines and 40 eight-passenger sedans. This is the owners' favorite post--war year, and we believe it is the only one remaining.</caption>
+  </image>
+  <image imageURL="images/CLimo3L.jpg"
+	linkURL="images/CLimo3L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The rear wheels are five inches further apart to allow for a wider back seat. In order to limit the overall width of the car. special rear fenders have a recess to accept the forward sweep of the bumper. This is the only year with the bumpers extending to the wheel cutouts. Taillights are special to this mode.</caption>
+  </image>
+  <image imageURL="images/CLimo4L.jpg"
+	linkURL="thumbs/CLimo4L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The side view mirror bases blend with the chrome molding under the windows. Other models have a single mirror mounted lower on the door. The concave side moldings are not used elsewhere.</caption>
+  </image>
+  <image imageURL="images/CLimo5L.jpg"
+	linkURL="thumbs/CLimo5L.jpgg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The front door lock key also operates the ignition, but the rear door is a different key. The divider window can be controlled only from the rear compartment, and the chauffeur can only raise, but not lower, the rear windows with his buttons. This key/window arrangement limits access to the passenger compartment. (So much for the trustworthiness of the hired help!)</caption>
+  </image>
+  <image imageURL="images/CLimo6L.jpg"
+	linkURL="images/CLimo6L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The occasional seats are unique, with a two-piece back. They fold flush into a recess in the front seat. The carpet is Mosstread, made by a small New York City shop. All back compartment trim is solid brass, nickel plated (thought to look more elegant than the traditional chrome). Note the hydraulic window controls under the rear window. Even the quarter windows are also powered, making for a total of 7 automatic windows.</caption>
+  </image>
+  <image imageURL="images/CLimo7L.jpg"
+	linkURL="images/CLimo7L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The divider window fits snugly against the headliner which has a seal behind it. With the window up, it is nearly impossible to hear voices back and forth. The clock is an 8-day movement left over from WW II bomber planes. Also visible is one of three overhead lights.</caption>
+  </image>
+  <image imageURL="images/CLimo8L.jpg"
+	linkURL="images/CLimo8L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>The chauffeur's compartment is finished in black leather, rubber floor mats, and chrome trim. The black steering wheel is another special item unique to this model. Note that his door panel (below the window) is black leather, whereas those in the rear are wood-grained.</caption>
+  </image>
+  <image imageURL="images/CLimo9L.jpg"
+	linkURL="images/CLimo9L.jpg"
+	linkTarget="_blank">
+	<title></title>
+    <caption>Two release buttons in the rear bumper guards allow the center section to hinge down. This allows access to a door below the trunk lid. Inside is the spare tire, jack, and other tools. This special arrangement also avoids any necessity for the chauffeur to enter the trunk compartment!</caption>
+  </image>
+ 
+</juiceboxgallery>

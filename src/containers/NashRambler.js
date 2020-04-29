@@ -6,7 +6,7 @@ const NashRambler = () => {
     const mainText =
         <React.Fragment>
             <div>
-                <p><a href={window.location.origin + '/assets/images/features/nash_rambler_gallery/index.html'}><img src={window.location.origin + '/assets/images/features/rambler/HoodOrnament.jpg'} className="feature-img" alt="Hood ornament of the restored Rambler"/></a><em><strong>Note:</strong> I would like to sincerely thank my fellow members of the Nash Car Club of America for their help and encouragement during the car's three-year restoration. They were a huge source of information and details. The many emails with answers to my questions, pictures and suggestions were Invaluable in getting my Rambler back to the superb condition it is in today. Plus a big thank-you to Les and Mark. Everyone who restores a car needs someone to call on when nothing is going right. Les and Mark were those guys for me.</em></p>
+                <p><a href={window.location.origin + '/assets/galleries/nash_rambler_gallery/index.html'}><img src={window.location.origin + '/assets/images/features/rambler/HoodOrnament.jpg'} className="feature-img" alt="Hood ornament of the restored Rambler"/></a><em><strong>Note:</strong> I would like to sincerely thank my fellow members of the Nash Car Club of America for their help and encouragement during the car's three-year restoration. They were a huge source of information and details. The many emails with answers to my questions, pictures and suggestions were Invaluable in getting my Rambler back to the superb condition it is in today. Plus a big thank-you to Les and Mark. Everyone who restores a car needs someone to call on when nothing is going right. Les and Mark were those guys for me.</em></p>
 
                 <p>I had always been a Ford car person, the old ones. While on a hunting trip in Montana, I spotted an old car behind a building on the edge of Glasgow.</p>
 
@@ -48,7 +48,7 @@ const NashRambler = () => {
 
                 <p>I drove the car 10 miles on April 28, 2012 for the first time.</p>
 
-                <p><a href={window.location.origin + '/assets/images/features/nash_rambler_gallery/index.html'}><strong>Photo Gallery</strong></a></p>
+                <p><a href={window.location.origin + '/assets/galleries/nash_rambler_gallery/index.html'}><strong>Photo Gallery</strong></a></p>
             </div>
         </React.Fragment>
 

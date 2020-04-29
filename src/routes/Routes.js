@@ -14,6 +14,7 @@ import BeepBeep from '../containers/BeepBeep';
 import CalendarArt from "../containers/CalendarArt"
 import NashRemodel from "../containers/NashRemodel";
 import ProfessionalCars from "../containers/professional_cars";
+import ChryslerCrownImperial from "../containers/ChryslerCrownImperial";
 
 // import NotFoundPage from '../components/NotFoundPage';
 
@@ -35,7 +36,7 @@ const Routes = () => {
             <Route path="/calendar_art" component={CalendarArt}/>
             <Route path="/nash_remodel" component={NashRemodel}/>
             <Route path="/professional_cars" component={ProfessionalCars}/>
-            }
+            <Route path="/chrysler_crown_imperial" component={ChryslerCrownImperial}/>
 
             {/*<Route component={NotFoundPage}/>*/}
         </Switch>
