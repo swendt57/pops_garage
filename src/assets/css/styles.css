@@ -380,6 +380,11 @@ nav.beach-div {
     float: left;
 }
 
+.photo-detail {
+    min-height: 130px;
+    vertical-align: middle;
+}
+
 figure {
     /*border: 1px solid black;*/
     width: 175px;
