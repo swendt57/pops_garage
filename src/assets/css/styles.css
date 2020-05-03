@@ -28,9 +28,10 @@ section {
 
 /* BS OR */
 .container {
-    /*max-width: 90vw;*/
+    max-width: 90vw;
     margin: auto;
     padding: 0;
+    z-index: 0;
 }
 
 aside {
@@ -157,8 +158,6 @@ div.col {
     left: 0;
     width: 100%;
     height: 119px;
-    /*z-index: 1;*/
-    /*border-bottom: 3px solid black;*/
 }
 
 .title {
@@ -185,92 +184,83 @@ div.col {
     font-size: .65em;
 }
 
-.logo-container {
-    text-align: center;
-    height: 110px;
-    position: relative;
-    top: -10px;
-}
-
 .logo-wrapper {
-    padding-bottom: 20px;
     position: fixed;
     top: 0;
 }
 
 /* BS OR */
-.navbar {
-    /* do not change the first six! */
-    position: absolute;
-    top: 0;
-    left: 0;
+button.navbar-toggler {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+/* BS OR */
+button.navbar-toggler.collapsed {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.beach-div {
+    background-image: url("../../assets/images/banner-new.jpg"), url("../../assets/images/bg.jpg");
+    background-size: 441px 119px, 20px 119px;
+    background-position-x: 120px;
+    background-repeat: no-repeat, repeat;
+}
+
+nav.beach-div {
+    height:117px;
+}
+
+/* BS OR */
+.bg-light {
+    background-color: #88bbda!important;
+}
+
+/* BS OR */
+.navbar-collapse {
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(136,187,218,1), rgba(136,187,218,1), rgba(136,187,218,1), rgba(136,187,218,1));
+    position: fixed;
+    top: 80px;
     right: 0;
-    height: 119px;
-    margin: 0 auto;
-    z-index: 1000;
-    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 0 20px;
 }
 
-.nav-wrapper {
-    /*position: relative;*/
-    border-bottom: 1px solid black;
-}
-
-a.nav-link {
+/* BS OR */
+.nav-link {
     font-family: "Boogaloo", sans-serif;
     font-size: 22px;
     font-weight: 700;
-    /*background-color: #f6f3c8;*/
-    /*-webkit-text-stroke: .01rem red;*/
     text-shadow: 2px 2px 1px rgba(120,120,120,0.5);
-    background-color: #88bbda;
 }
-
-.navbar-light .navbar-nav .nav-link  {
-    color: black;
-    border-radius: 8px;
-}
-
-
-/* This needs work. I am unhappy with the toggled nav. We need a background color for the entire area and then can
-change the hove value to somewhat transparent*/
-.navbar-light .navbar-nav .nav-link:hover {
-    background: rgba(255,255,255,1);
-    /*background-color: #88bbda;*/
-    border-radius: 8px;
-    color: #181cb3;
-}
-
 
 /* BS OR */
-button.navbar-toggler {
-    margin-bottom: 40px;
-    background: rgba(255,255,255,.6);
+.navbar-light .navbar-nav .nav-link  {
+    color: black;
 }
 
-
-/* styles for tablet */
-@media (min-width: 768px) {
-
+/* BS OR */
+.nav-link:hover {
+    background: rgba(255,255,255,.5);
+    border-radius: 8px;
+    color: #181cb3;
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
     /* BS OR */
-    nav.navbar {
-        max-width: 1600px;
+    .navbar-collapse {
+        background-image: unset;
+        display: inline-block;
+        vertical-align: top;
+        position: fixed;
+        top: 20px;
+        width: unset;
     }
 
-    a.nav-link {
-        font-size: 24px;
-        margin-bottom: 30px;
-        text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
-        background-color: #88bbda;
-    }
-
-    .navbar-light .navbar-nav .nav-link:hover {
-        background: rgba(255, 255, 255, .3);
-    }
 }
 
 /*---------------Home---------------*/
