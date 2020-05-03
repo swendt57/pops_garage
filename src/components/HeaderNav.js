@@ -1,6 +1,6 @@
 import React from "react";
 
-import bg from '../assets/images/bg-extended.png';
+import bg from '../assets/images/bg.jpg';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';

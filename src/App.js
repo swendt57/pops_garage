@@ -12,15 +12,15 @@ class App extends Component {
         super(props);
 
         this.state = {
-            hideBanner: false
+            toggleBanner: false
         }
     }
 
     resize = () => {
-        let currentHideBanner = (window.innerWidth <= 550);
+        let isNarrowScreen = (window.innerWidth <= 550);
 
-        if (currentHideBanner !== this.state.hideBanner) {
-            this.setState({hideBanner: currentHideBanner});
+        if (isNarrowScreen !== this.state.toggleBanner) {
+            this.setState({toggleBanner: isNarrowScreen});
         }
     };
 
@@ -32,7 +32,7 @@ class App extends Component {
     render() {
         return (
             <div className="App.container">
-                <HeaderNav hideBanner={this.state.hideBanner}/>
+                <HeaderNav hideBanner={this.state.toggleBanner}/>
                 <Routes /> {/* Put this here, otherwise page content is inside the header*/}
             </div>
         );
@@ -42,19 +42,3 @@ class App extends Component {
 
 export default App;
 
-// <div className="App">
-//   <header className="App-header">
-//     <img src={logo} className="App-logo" alt="logo" />
-//     <p>
-//       Edit <code>src/App.js</code> and save to reload.
-//     </p>
-//     <a
-//       className="App-link"
-//       href="https://reactjs.org"
-//       target="_blank"
-//       rel="noopener noreferrer"
-//     >
-//       Learn React
-//     </a>
-//   </header>
-// </div>
