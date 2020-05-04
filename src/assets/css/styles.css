@@ -74,7 +74,7 @@ h3 {
 
 hr {
     border: 1px solid #aaa;
-    margin-bottom: 20px;
+    margin: 10px auto 15px;
 }
 
 div.col {
@@ -226,7 +226,7 @@ nav.beach-div {
     top: 80px;
     right: 0;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 20px 5px;
 }
 
 /* BS OR */
@@ -308,7 +308,7 @@ nav.beach-div {
 
 
 /*---------------Showroom---------------*/
-
+/* STILL NEED THIS? */
 .car-img {
     width: 150px;
     border: 1px solid black;
@@ -338,31 +338,40 @@ nav.beach-div {
 /*---------------Library---------------*/
 
 .book-img {
-    max-width: 125px;
-    max-height: 125px;
-    padding: 0 10px 0 0;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0 10px 0 0;
+    border: 1px solid black;
     float: left;
+}
+
+.library-detail {
+    margin: 0;
 }
 
 /* styles for tablet */
 @media (min-width: 768px) {
     .book-img {
-        width: 150px;
-        max-width: unset;
-        max-height: unset;
+        max-width: 175px;
+        max-height: 175px;
     }
 }
 
 /* styles for desktop */
 @media (min-width: 992px) {
     .book-img {
-        width: 175px;
+        max-width: 250px;
+        max-height: 250pxgit ;
     }
 
 }
 
 
 /*---------------Features---------------*/
+
+.outer-container {
+    /*min-height: 200px;*/
+}
 
 .feature-img {
     width: 150px;
@@ -375,14 +384,20 @@ nav.beach-div {
 .feature-img-left {
     max-width: 175px;
     border: 1px solid black;
-    margin-top: 10px;
-    margin-right: 15px;
+    margin: 5px 15px 5px 0;
     float: left;
 }
 
-.photo-detail {
-    min-height: 130px;
-    vertical-align: middle;
+.tk-photo-detail {
+    min-height: 135px;
+    /*vertical-align: top;*/
+}
+
+.photo-car-img {
+    width: 150px;
+    border: 1px solid black;
+    margin: 5px 10px 0 0;
+    float: left;
 }
 
 figure {
