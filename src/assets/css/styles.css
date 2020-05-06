@@ -74,13 +74,21 @@ h3 {
 
 hr {
     border: 1px solid #aaa;
-    margin: 10px auto 15px;
+    margin: 15px auto 10px;
 }
 
-div.col {
+td.photo-detail-td {
     vertical-align: top;
     text-align: justify;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: 0;
+}
+
+.alert {
+    margin: 10px;
+    padding: 10px 0 0 10px;
 }
 
 /* styles for tablet */
@@ -307,20 +315,25 @@ nav.beach-div {
 }
 
 
-/*---------------Showroom---------------*/
-/* STILL NEED THIS? */
+/*---------------Showroom and Tire Kicking---------------*/
 .car-img {
-    width: 150px;
+    max-width: 150px;
+    max-height: 150px;
     border: 1px solid black;
-    margin: 5px 10px 0 0;
+    margin: 0 10px 5px 0;
     float: left;
 }
+
+/*.car-detail {*/
+/*    margin: 0;*/
+/*}*/
 
 
 /* styles for tablet */
 @media (min-width: 768px) {
     .car-img {
-        width: 175px;
+        max-width: 175px;
+        max-height: 175px;
     }
 
 }
@@ -328,11 +341,15 @@ nav.beach-div {
 /* styles for desktop */
 @media (min-width: 992px) {
     .car-img {
-        /*height: 300px;*/
-        width: 200px;
+        max-width: 225px;
+        max-height: 225px;
     }
 
 }
+
+
+/*---------------Tire Kicking---------------*/
+
 
 
 /*---------------Library---------------*/
@@ -340,7 +357,7 @@ nav.beach-div {
 .book-img {
     max-width: 150px;
     max-height: 150px;
-    margin: 0 10px 0 0;
+    margin: 0 10px 5px 0;
     border: 1px solid black;
     float: left;
 }
@@ -369,9 +386,9 @@ nav.beach-div {
 
 /*---------------Features---------------*/
 
-.outer-container {
-    /*min-height: 200px;*/
-}
+/*.outer-container {*/
+/*    !*min-height: 200px;*!*/
+/*}*/
 
 .feature-img {
     width: 150px;
@@ -388,17 +405,17 @@ nav.beach-div {
     float: left;
 }
 
-.tk-photo-detail {
-    min-height: 135px;
-    /*vertical-align: top;*/
-}
+/*.tk-photo-detail {*/
+/*    min-height: 135px;*/
+/*    !*vertical-align: top;*!*/
+/*}*/
 
-.photo-car-img {
-    width: 150px;
-    border: 1px solid black;
-    margin: 5px 10px 0 0;
-    float: left;
-}
+/*.photo-car-img {*/
+/*    width: 150px;*/
+/*    border: 1px solid black;*/
+/*    margin: 5px 10px 0 0;*/
+/*    float: left;*/
+/*}*/
 
 figure {
     /*border: 1px solid black;*/

@@ -2,6 +2,9 @@ import React, {Component} from "react";
 
 import PhotoWithDetail from "../components/PhotoWithDetail";
 
+import {adjustSpacing} from "../utilities/utils";
+import $ from "jquery";
+
 function assembleData() {
     let data = require("../assets/data/tire_kicking.json");
 
@@ -24,6 +27,9 @@ class TireKicking extends Component {
         }
     }
 
+    componentDidMount() {
+    }
+
     render () {
         return (
             <section>
@@ -38,9 +44,10 @@ class TireKicking extends Component {
                                          description={item.description}
                                          image_name={item.image_name}
                                          image_folder="tire_kicking"
-                                         class_name="car-img"
+                                         container_class_name="photo-detail"
+                                         image_class_name="car-img"
                                          alt_text={item.title + 'example'}
-                                        link={item.link}/>)}
+                                         link={item.link} />)}
 
                 </div>
 
@@ -49,5 +56,10 @@ class TireKicking extends Component {
         )
     }
 }
+
+//Must use window-load instead of document-ready to ensure images are loaded
+$(window).on("load resize", adjustSpacing);
+
+
 
 export default TireKicking;

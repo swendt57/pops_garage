@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Alert from 'react-bootstrap/Alert';
 
 import PhotoWithDetail from "../components/PhotoWithDetail";
 
@@ -20,7 +21,8 @@ function getDetailCode(item) {
                          description={item.description}
                          image_name={item.image_name}
                          image_folder="showroom"
-                         class_name="car-img"
+                         container_class_name="photo-detail"
+                         image_class_name="car-img"
                          alt_text="A sample model from: "/>
     )
 }
@@ -39,6 +41,10 @@ class Showroom extends Component {
     render () {
         return (
             <section>
+
+                <Alert variant="danger">
+                    <p>We are updating the detail pages in the Showroom. Thank you for your patience!</p>
+                </Alert>
 
                 <h1>Showroom</h1>
 

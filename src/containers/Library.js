@@ -25,49 +25,42 @@ class Library extends Component {
     }
 
     componentDidMount() {
-        adjustSpacing();
+
     }
 
-    render () {
+    render() {
+
         return (
-            <section>
 
-                <h1>The Library</h1>
+            <React.Fragment>
+                <section>
 
-                <div className="container">
+                    <h1>The Library</h1>
 
-                    {this.state.libraryData.map(item => <PhotoWithDetail key={item.title}
-                                                                         title={item.title}
-                                                                         description={item.description}
-                                                                         image_name={item.image_name}
-                                                                         image_folder="library"
-                                                                         container_class_name="library-detail"
-                                                                         image_class_name="book-img"
-                                                                         alt_text="Book cover of: "/>)}
-                </div>
+                    <div className="container">
 
-            </section>
+                        {this.state.libraryData.map(item => <PhotoWithDetail key={item.title}
+                                                                             title={item.title}
+                                                                             description={item.description}
+                                                                             image_name={item.image_name}
+                                                                             image_folder="library"
+                                                                             container_class_name="photo-detail"
+                                                                             image_class_name="book-img"
+                                                                             alt_text="Book cover of: "/>)}
+                    </div>
+
+                    <div id="load-test"/>
+
+                </section>
+            </React.Fragment>
         )
     }
 }
 
+
 //Must use window-load instead of document-ready to ensure images are loaded
-$(window).on("load resize", adjustSpacing);
-
-function adjustSpacing() {
-    $('.library-detail').each(function() {
-        let $this = $(this);
-
-        let maxHeight = parseInt($this.children('img').css("max-height").replace(/[^-\d.]/g, ''));
-        let imgHeight = $this.children('img').outerHeight();
-        let imgHeight2Use = (imgHeight > maxHeight) ? maxHeight : imgHeight;
-
-        let textHeight = $this[0].scrollHeight;
-        let divHeight = (imgHeight2Use > textHeight) ? imgHeight2Use + 5 : textHeight + 5;
-
-        $this.parent().css({"height": divHeight});
-    });
-}
-
+$(window).on("load", function() {
+    // adjustSpacing(); //Not needed anymore??
+});
 
 export default Library;

@@ -38,7 +38,8 @@ class Livery extends Component {
                                          description={item.description}
                                          image_name={item.image_name}
                                          image_folder="livery"
-                                         class_name="car-img"
+                                         container_class_name="photo-detail"
+                                         image_class_name="car-img"
                                          alt_text={item.title + 'example'}
                                          link={item.link}/>)}
 
