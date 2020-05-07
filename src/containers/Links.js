@@ -13,23 +13,8 @@ function assembleData() {
     return linksArray;
 }
 
-//working...
-// function addHrefs(text, urls) {
-//     let snippet = text.split('[/^\\d+$/]');
-//     let newText;
-//     snippet.forEach(function(snip, index) {
-//         if sn
-//     })
-// }
+//TODO - figure out a way to handle multiple URLs in a description - I have taken the links out of Dave's Classics for the time being
 
-// function replacePlaceholders(text, urls) {
-//     // let tempText;
-//     urls.forEach(function(item, index) {
-//         text = replacePlaceholder(text, `[${index}]`, item.url);
-//         console.log("temp: " + text);
-//     })
-//     // return tempText;
-// }
 
 function replacePlaceholder(text, placeholder, replacement) {
     return text.replace(placeholder, replacement);
@@ -39,7 +24,6 @@ function getDetailCode(item) {
     return (
         <PhotoWithDetailAndUrls key={item.title}
                          title={item.title}
-                            // description={replacePlaceholders(item.description, item.urls)}
                          description={replacePlaceholder(item.description, "[0]", item.urls[0].url)}
                          image_name={item.image_name}
                          image_folder="links"
@@ -160,6 +144,6 @@ class Links extends Component {
             </section>
         )
     }
-};
+}
 
 export default Links;

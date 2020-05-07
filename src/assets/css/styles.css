@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: black;
     margin-bottom: 15px;
 }
@@ -86,7 +86,7 @@ hr {
 
 td.photo-detail-td {
     vertical-align: top;
-    text-align: justify;
+    text-align: left;
     /*margin-bottom: 10px;*/
     padding-top: 0;
     padding-bottom: 0;
@@ -127,9 +127,17 @@ td.photo-detail-td {
         font-size: 1.7rem;
     }
 
+    h3, h4 {
+        font-size: 1.6rem;
+    }
+
     aside {
         font-size: .9rem;
         padding: 10px;
+    }
+
+    td.photo-detail-td {
+        text-align: justify;
     }
 }
 
@@ -157,6 +165,11 @@ td.photo-detail-td {
 
     h2 {
         font-size: 1.9rem;
+
+    }
+
+    h3, h4 {
+        font-size: 1.8rem;
 
     }
 

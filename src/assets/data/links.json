@@ -14,17 +14,17 @@
 	"image_name": "amxcutaway.jpg",
 	"category": "independents",
 	"subcategory": "amc",
-	"link": "http://www.allpar.com/amc/index.html",
+	"link": "https://www.allpar.com/amc/index.html",
 	"urls": [{}]
 	},
 	{
 	"title": "History of the Hudson Motorcar Company",
-	"description": "A very well written and comprehensive story of Hudson with high quality photographs both historical and currant of almost every model the company ever made including the last which was really a Nash. This page is maintained by the [0]  and is contained with in the club's very comprehensive national web site.",
+	"description": "A very well written and comprehensive story of Hudson with high quality photographs both historical and current of almost every model the company ever made including the last which was really a Nash. This page is maintained by the [0]  and is contained with in the club's very comprehensive national web site.",
 	"image_name": "48hudson.jpg",
 	"category": "independents",
 	"subcategory": "hudson",
-	"link": "http://www.allpar.com/cars/adopted/hudson-1936.html",
-	"urls": [{"url": "http://www.hetclub.org/", "name": "Hudson-Essex Terraplane Club"}]
+	"link": "https://www.allpar.com/cars/adopted/hudson-1936.html",
+	"urls": [{"url": "https://www.hetclub.org/", "name": "Hudson-Essex Terraplane Club"}]
 	},
 	{
 	"title": "John's Old Car and Truck Pictures",
@@ -50,7 +50,7 @@
 	"image_name": "BluePackard.jpg",
 	"category": "independents",
 	"subcategory": "packard",
-	"link": "http://www.studebaker-info.org/text3/pack-hist-1945.html",
+	"link": "https://www.studebaker-info.org/text3/pack-hist-1945.html",
 	"urls": [{}]
 	},
 	{
@@ -59,7 +59,7 @@
 	"image_name": "factory-1924-PMCC.jpg",
 	"category": "independents",
 	"subcategory": "packard",
-	"link": "http://www.packardclub.org/",
+	"link": "https://www.packardclub.org/",
 	"urls": [{}]
 	},
 	{
@@ -68,7 +68,7 @@
 	"image_name": "RedPackard.jpg",
 	"category": "independents",
 	"subcategory": "packard",
-	"link": "http://www.napackards.org/",
+	"link": "https://www.napackards.org/",
 	"urls": [{}]
 	},
 	{
@@ -77,7 +77,7 @@
 	"image_name": "bulletnose.jpg",
 	"category": "independents",
 	"subcategory": "studebaker",
-	"link": "http://www.studebakermuseum.org/",
+	"link": "https://www.studebakermuseum.org/",
 	"urls": [{}]
 	},
 	{
@@ -113,7 +113,7 @@
 	"image_name": "hearsBrochure.jpg",
 	"category": "livery",
 	"subcategory": "hearses",
-	"link": "http://www.mclellansautomotive.com/sales-lit/bysub/amb-hrs-limo/index.shtml",
+	"link": "http://www.mclellansautomotive.com",
 	"urls": [{}]
 	},
 	{
@@ -127,7 +127,7 @@
 	},
 	{
 	"title": "Dave's Classic Limousine Pictures",
-	"description": "has over 650 Limousine pictures and is just the best darn limo site that Pop has found. Multiples pages are devoted to pictures of cars from the earliest days of the automobile to the present. Special sections cover [0], the [1] and [2] story's plus Novelty Limousines with pictures of everything from a Corvair to wild VW Beatles.",
+	"description": "has over 650 Limousine pictures and is just the best darn limo site that Pop has found. Multiples pages are devoted to pictures of cars from the earliest days of the automobile to the present. Special sections cover Presidential Cars, the Lehmann-Peterson and Armbruster / Stageway story's plus Novelty Limousines with pictures of everything from a Corvair to wild VW Beatles.",
 	"image_name": "Daves56_000.jpg",
 	"category": "livery",
 	"subcategory": "limousines",
@@ -185,7 +185,7 @@
 	"image_name": "rsz_logo-oval_only-page-001.jpg",
 	"category": "other_web_sites",
 	"subcategory": "",
-	"link": "http://pitproducts.com/",
+	"link": "https://pitproducts.com/",
 	"urls": [{}]
 	},
 	{
