@@ -88,7 +88,113 @@
 	"subcategory": "studebaker",
 	"link": "http://www.studebakerclubs.com/",
 	"urls": [{}]
+	},
+	{
+	"title": "The Packard / Imperial Page ",
+	"description": "spotlights the coach built cars of the two grand marques, particularly the hand built Henney-Packard professional cars and the Ghia-Imperial Limousines. Has a page for recommending or warning against auto transportation companies and also has posted a great story of the ongoing restoration of a 1964 Ghia Imperial Limousine.",
+	"image_name": "51_52henney.jpg",
+	"category": "livery",
+	"subcategory": "hearses",
+	"link": "http://www.pc-homepage.com/cars/",
+	"urls": [{}]
+	},
+	{
+	"title": "Armbruster Stageway",
+	"description": "is the world's leading manufacturer of specialty vehicles. Several famous names in hearse building, Sayers & Scovill , Superior , Eureka and Miller-Meteor now belong to the Armbruster Stageway family. Each brand has its own section on the site with lists and photos of the hearses and limousines they build for the mortuary profession. Special presentation of former president Reagan's funeral procession.",
+	"image_name": "newCadillacHearse.jpg",
+	"category": "livery",
+	"subcategory": "hearses",
+	"link": "https://armbrusterstageway.com/",
+	"urls": [{}]
+	},
+	{
+	"title": "McLellan's Automotive History",
+	"description": "has a vast inventory of original, top quality, collectible sales literature for ambulances, hearses and limousines.",
+	"image_name": "hearsBrochure.jpg",
+	"category": "livery",
+	"subcategory": "hearses",
+	"link": "http://www.mclellansautomotive.com/sales-lit/bysub/amb-hrs-limo/index.shtml",
+	"urls": [{}]
+	},
+	{
+	"title": "Just Hearse' N Around Hearse Club",
+	"description": "is based in Hell (MIchigan) and their theme song would seem to be \"I Drive a Hearse, Could be Worse, I Could be Riding in the Back\"...catchy little tune, it plays on the club's web site. Take time to wander around in the [0], this group has a a full deck of cool rides.",
+	"image_name": "JustHearsinglogo.jpg",
+	"category": "livery",
+	"subcategory": "hearses",
+	"link": "http://www.justhearsenaround.com/",
+	"urls": [{"url": "http://www.justhearsenaround.com/event.html", "name": "Event Pictures"}]
+	},
+	{
+	"title": "Dave's Classic Limousine Pictures",
+	"description": "has over 650 Limousine pictures and is just the best darn limo site that Pop has found. Multiples pages are devoted to pictures of cars from the earliest days of the automobile to the present. Special sections cover [0], the [1] and [2] story's plus Novelty Limousines with pictures of everything from a Corvair to wild VW Beatles.",
+	"image_name": "Daves56_000.jpg",
+	"category": "livery",
+	"subcategory": "limousines",
+	"link": "http://www.justhearsenaround.com/",
+	"urls": [{"url": "http://my.net-link.net/~dcline/limopres.htm", "name": "Presidential Cars"},{"url": "http://my.net-link.net/~dcline/limolp1.htm", "name": "Lehmann-Peterson"},{"url": "http://my.net-link.net/~dcline/limostg1.htm", "name": "Armbruster / Stageway"},{"url": "http://my.net-link.net/~dcline/limonov1.htm", "name": "Novelty Limousines"}]
+	},
+	{
+	"title": "The Rockefeller Ghia",
+	"description": "This 1960 Crown Imperial limousine, bodywork by Ghia of Italy was sold new to the governor of New York, Nelson Rockefeller. Only seventeen Crown Imperial limousines were produced in 1960. Of them, 16 had six side windows, while one - this unique car - was built with rear quarter windows closed off. Great interior photographs. Complete restoration cost more than $75,000.",
+	"image_name": "Rockefeller-rear.jpg",
+	"category": "livery",
+	"subcategory": "limousines",
+	"link": "http://www.imperialclub.com/~imperialclub/Yr/1960/Limo/Rockefeller/index.htm",
+	"urls": [{}]
+	},
+	{
+	"title": "Crown Imperial Limousines by Ghia 1957-'65",
+	"description": "Chrysler had built 8-passenger cars on a long wheelbase since the 1930s, but sales dwindled by the start of the 1950s and Chrysler turned to out-side companies to produce the big cars. This site gives details and pictures of the collaboration with Carrozzeria Ghia in Turin, Italy plus later American companies that did limousine work for Chrysler. A great read of little known information.",
+	"image_name": "57crownimperial_a.jpg",
+	"category": "livery",
+	"subcategory": "limousines",
+	"link": "http://ch300imp.com/ghialimo_us.htm",
+	"urls": [{}]
+	},
+	{
+	"title": "Nash Healey Restoration",
+	"description": "Larry Varley of Melbourne, Australia is, like Pop, a member of The Nash Car Club of America. He is restoring a 1954 Nash Healey LeMans Coupe and has been keeping the club's MOL (Members on Line) up-to-date with the restoration through pictures and links to his website. The Healy has an interesting background and Larry has fully documented this. He has taken photographs of everything and put captions to each one. Click on the numbers under the photograph to follow along with this restoration in progress.",
+	"image_name": "1953NashHealey.jpg",
+	"category": "other_web_sites",
+	"subcategory": "",
+	"link": "http://www.acmefluid.com.au/nash/docs.html",
+	"urls": [{}]
+	},
+	{
+	"title": "Ate Up With Motor",
+	"description": "provides in-depth histories of interesting cars and the people behind them. Primarily focus on older cars, but may occasionally talk about newer models if they're interesting enough. Each article will tell you: How that car came to be; Why it was designed the way it was and the context in which it was developed; How well it worked (or didn't!) and Whether it succeeded or failed commercially and why. It contains articles on many of the American Independents and using the navigation bar on any page, you can search histories by Type, Era or Brand.",
+	"image_name": "Ramblerdash.jpg",
+	"category": "other_web_sites",
+	"subcategory": "",
+	"link": "https://ateupwithmotor.com/",
+	"urls": [{}]
+	},
+	{
+	"title": "Diecast Ramblings",
+	"description": "A great site for diecast scale model photography, articles, reviews and discussion  Check the Diecast Blog for the latest diecast news and visit the Diecast Forums for a lively discussion of everything diecast. Most of the models covered are 1:24 scale but there are others.",
+	"image_name": "57caddies5-400.jpg",
+	"category": "other_web_sites",
+	"subcategory": "",
+	"link": "http://diecastramblings.com/",
+	"urls": [{}]
+	},
+	{
+	"title": "Pit Products",
+	"description": "is a manufacturer of high quality trailer accessories and storage solutions. They have base and overhead cabinets and accessories plus ramps and loading gear to help with your automobile collecting needs, If you have things that need to be kept handy or things that just need to be neatly storied, they likely have just what you need for the job. And all of their products are American made at their facility in Jackson, Michigan.",
+	"image_name": "rsz_logo-oval_only-page-001.jpg",
+	"category": "other_web_sites",
+	"subcategory": "",
+	"link": "http://pitproducts.com/",
+	"urls": [{}]
+	},
+	{
+	"title": "Air Lift",
+	"description": "is a manufacturer of air suspension air bag suspension kits that provide increased support while towing or hauling heavy loads. Without added suspension support, hauling heavy loads becomes dangerous and bad for your vehicle. Their air bag suspension kits are designed to give you a safe, level and comfortable ride, and they work with your vehicle's existing leaf or coil suspension systems.",
+	"image_name": "logo-large.png",
+	"category": "other_web_sites",
+	"subcategory": "",
+	"link": "https://www.airliftcompany.com/",
+	"urls": [{}]
 	}
-
-	
 ]

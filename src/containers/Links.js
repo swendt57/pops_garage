@@ -67,7 +67,6 @@ class Links extends Component {
     render () {
         return (
             <section>
-
                 <h1>Links</h1>
 
                 <div className="container">
@@ -75,104 +74,89 @@ class Links extends Component {
                     <hr/>
 
                     <h4>American Motors Corporation</h4>
-
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
                             return (item.category === "independents" && item.subcategory === "amc") ?
-                                getDetailCode(item)
-                                :
-                                ""
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
 
                     <h4>Hudson</h4>
-
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
                             return (item.category === "independents" && item.subcategory === "hudson") ?
-                                getDetailCode(item)
-                                :
-                                ""
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
 
-
                     <h4>Nash</h4>
-
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
                             return (item.category === "independents" && item.subcategory === "nash") ?
-                                getDetailCode(item)
-                                :
-                                ""
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
 
                     <h4>Packard</h4>
-
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
                             return (item.category === "independents" && item.subcategory === "packard") ?
-                                getDetailCode(item)
-                                :
-                                ""
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
 
                     <h4>Studebaker</h4>
-
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
                             return (item.category === "independents" && item.subcategory === "studebaker") ?
-                                getDetailCode(item)
-                                :
-                                ""
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
 
-
                     <h2>Livery</h2>
-
                     <hr/>
 
+                    <h4>Hearses</h4>
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
-                            return item.category === "livery" ?
-                                getDetailCode(item)
-                                :
-                                ""
+                            return (item.category === "livery" && item.subcategory === "hearses") ?
+                                getDetailCode(item) : ""
+                        })}
+                        </tbody>
+                    </table>
+
+                    <h4>Limousines</h4>
+                    <table className="table">
+                        <tbody>
+                        {this.state.linksData.map(item => {
+                            return (item.category === "livery" && item.subcategory === "limousines") ?
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
 
                     <h2>Other Web Sites</h2>
-
                     <hr/>
-
                     <table className="table">
                         <tbody>
                         {this.state.linksData.map(item => {
                             return item.category === "other_web_sites" ?
-                                getDetailCode(item)
-                                :
-                                ""
+                                getDetailCode(item) : ""
                         })}
                         </tbody>
                     </table>
-
                 </div>
-
             </section>
         )
     }

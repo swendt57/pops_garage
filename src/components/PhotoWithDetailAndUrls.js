@@ -19,9 +19,9 @@ const PhotoWithDetailAndUrls = props => {
         }]
 
     function assembleTextWithUrl() {
-        console.log("before: " + props.description);
+        // console.log("before: " + props.description);
         let newString = processString(config)(props.description, props.urls.name);
-        console.log("after: " + props.description);
+        // console.log("after: " + props.description);
         return newString;
     }
 
