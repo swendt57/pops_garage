@@ -1,0 +1,94 @@
+[
+	{
+	"title": "Articboy's American Motors Site",
+	"description": "A very comprehensive site with tons of pictures and separate pages for every car that American Motors Corporation ever made. Also includes a [0] with pictures of the pre AMC Nash Motors cars. Lots of American Motors advertising reproductions: postcards, ads and showroom literature and sketches of the proposals that never made it into production.",
+	"image_name": "1961Ambassador.jpg",
+	"category": "independents",
+	"subcategory": "amc",
+	"link": "http://arcticboy.com/index.html",
+	"urls": [{"url": "http://arcticboy.com/Pages/arcticboys50s.html", "name": "1950s Nash Rambler Stash"}]
+	},
+	{
+	"title": "American Motors Corporation 1954-1987",
+	"description": "History of AMC by year - 1954 merger of Nash and Hudson; 1980 purchase of 25% interest by France's Renault; 1982 sale of AM General (today's Hummer), Renault holds 46% controlling interest and last, Lee Iacoca's under-the-table takeover deal, allowing Chrysler Corporation to dismember AMC, keeping only Jeep and a Canadian manufacturing plant.",
+	"image_name": "amxcutaway.jpg",
+	"category": "independents",
+	"subcategory": "amc",
+	"link": "http://www.allpar.com/amc/index.html",
+	"urls": [{}]
+	},
+	{
+	"title": "History of the Hudson Motorcar Company",
+	"description": "A very well written and comprehensive story of Hudson with high quality photographs both historical and currant of almost every model the company ever made including the last which was really a Nash. This page is maintained by the [0]  and is contained with in the club's very comprehensive national web site.",
+	"image_name": "48hudson.jpg",
+	"category": "independents",
+	"subcategory": "hudson",
+	"link": "http://www.allpar.com/cars/adopted/hudson-1936.html",
+	"urls": [{"url": "http://www.hetclub.org/", "name": "Hudson-Essex Terraplane Club"}]
+	},
+	{
+	"title": "John's Old Car and Truck Pictures",
+	"description": "  If you like old cars and trucks, this is a site you will truly enjoy. Hundreds of pictures with captions, listed by make and manufacturer...most with a short history of the companies. Pop's favorite is [0] featuring a short written history with pictures of Nash Motors cars from the 1921 Nash Four to the 1959 Ambassador 4 Door Hardtop Sedan. Included are shots of pre war models plus Statesman, Ambassadors, Ramblers, Nash Healys and Metropolitans. A wide selection of advertisements and showroom brochures are shown.",
+	"image_name": "1955Nash-3.jpg",
+	"category": "independents",
+	"subcategory": "nash",
+	"link": "http://www.oldcarandtruckpictures.com/",
+	"urls": [{"url": "http://oldcarandtruckpictures.com/AmericanMotors/Nash.html", "name": "Picture Review of the Nash"}]
+	},
+	{
+	"title": "The Nash Car Club of America",
+	"description": "The Nash Car Club of America is a national organization with over 1400 active members. They publish a bi-monthly magazine called The Nash Times that is loaded with pictures, articles and useful information and the monthly NCCA MARKETPLACE with cars and parts for sale and wanted. Also a yearly calendar featuring members cars from all over the world. Pop is pleased to be a member.",
+	"image_name": "502drmaroon.jpg",
+	"category": "independents",
+	"subcategory": "nash",
+	"link": "http://www.nashcarclub.org/",
+	"urls": [{}]
+	},
+	{
+	"title": "Packard History / 1945-1984",
+	"description": "A year by year history of Packard from the end of World War II in 1945 to the purchase of Studebaker in 1954 and the final end of all automobile production by Studebaker-Packard in 1964. This is a long and interesting narrative, all text with some links to photographs and other information. A wealth of information on the individuals associated with Packard and Studebaker over the long history of the two companies.",
+	"image_name": "BluePackard.jpg",
+	"category": "independents",
+	"subcategory": "packard",
+	"link": "http://www.studebaker-info.org/text3/pack-hist-1945.html",
+	"urls": [{}]
+	},
+	{
+	"title": "Packard Automobile Classics, Inc",
+	"description": "aka: \"The Packard Club\", is a huge site dedicated to The Packard Motor Car Company and its long and venerable history. Has a site map that gives you access to almost anything you ever wanted to know about Packards. Also gives locations and contact information for the 55 Regional clubs and 4 Affiliate Organizations & Clubs which are the extended worldwide Packard Club family.",
+	"image_name": "factory-1924-PMCC.jpg",
+	"category": "independents",
+	"subcategory": "packard",
+	"link": "http://www.packardclub.org/",
+	"urls": [{}]
+	},
+	{
+	"title": "North Atlantic Packards",
+	"description": "Is a Region of Packard Automobile Classics, Inc. (aka) \"The Packard Club.\" Information on membership, members cars, events and The Pelican Papers, the chapters award-winning club newsletter.",
+	"image_name": "RedPackard.jpg",
+	"category": "independents",
+	"subcategory": "packard",
+	"link": "http://www.napackards.org/",
+	"urls": [{}]
+	},
+	{
+	"title": "The Studebaker National Museum",
+	"description": "Seeks to preserve the Studebaker heritage. Studebaker was the only company to span the time from settlers' wagons to high performance automobiles. View 114 years of automotive history, from the Studebaker family's Conestoga Wagon to the last car to roll off the assembly line. Site has all the information you need if you are planning a visit to the museum in South Bend, Indiana, even a map with driving directions. No time for a road trip? Take the Virtual Tour of the museum's exhibits.",
+	"image_name": "bulletnose.jpg",
+	"category": "independents",
+	"subcategory": "studebaker",
+	"link": "http://www.studebakermuseum.org/",
+	"urls": [{}]
+	},
+	{
+	"title": "Studebaker Clubs",
+	"description": "is a great resource for finding club chapters in your area, including the United States, Canada, Australia, the Netherlands and the United Kingdom. Has link to each club plus links to parts suppliers and newsletters. Straight forward design one page scroll down, featuring the artwork and photos of the various chapters logos.",
+	"image_name": "1949Champion.jpg",
+	"category": "independents",
+	"subcategory": "studebaker",
+	"link": "http://www.studebakerclubs.com/",
+	"urls": [{}]
+	}
+
+	
+]

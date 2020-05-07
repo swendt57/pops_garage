@@ -1,4 +1,20 @@
 import $ from "jquery";
+import React from "react";
+
+export const urlParserConfigs = [
+    {
+        regex: /(http|https):\/\/(\S+)\.([a-z]{2,}?)(.*?)( |,|$|\.)/gim,
+        fn: (key, result) => <span key={key}>
+                                     <a href={`${result[1]}://${result[2]}.${result[3]}${result[4]}`} target="_blank" rel="noopener noreferrer">url_name</a>{result[5]}
+                                 </span>
+    },
+    {
+        regex: /(\S+)\.([a-z]{2,}?)(.*?)( |,|$|\.)/gim,
+        fn: (key, result) => <span key={key}>
+                             <a href={`http://${result[1]}.${result[2]}${result[3]}`} target="_blank" rel="noopener noreferrer">url_name</a>{result[4]}
+                         </span>
+    }
+];
 
 //Not using at this time - keeping it for now
 export const adjustSpacing = () => {

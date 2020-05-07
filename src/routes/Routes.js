@@ -5,7 +5,7 @@ import Home from '../containers/Home';
 import Showroom from '../containers/Showroom';
 import TireKicking from '../containers/TireKicking';
 import Livery from '../containers/Livery';
-import ClubNews from '../containers/ClubNews';
+import Links from '../containers/Links';
 import Library from '../containers/Library';
 import MetropolitanStory from '../containers/MetropolitanStory';
 import NashRambler from '../containers/NashRambler';
@@ -16,8 +16,6 @@ import NashRemodel from "../containers/NashRemodel";
 import ProfessionalCars from "../containers/professional_cars";
 import ChryslerCrownImperial from "../containers/ChryslerCrownImperial";
 
-// import NotFoundPage from '../components/NotFoundPage';
-
 const Routes = () => {
 
     return (
@@ -25,10 +23,9 @@ const Routes = () => {
             <Route path="/" component={Home} exact={true}/>
             <Route path="/showroom" component={Showroom}/>
             <Route path="/tire_kicking" component={TireKicking}/>
-
             <Route path="/livery" component={Livery}/>
             <Route path="/library" component={Library}/>
-            <Route path="/club_news" component={ClubNews}/>
+            <Route path="/links" component={Links}/>
             <Route path="/metropolitan_story" component={MetropolitanStory}/>
             <Route path="/nash_rambler" component={NashRambler}/>
             <Route path="/land_cruiser" component={LandCruiser}/>
@@ -37,8 +34,6 @@ const Routes = () => {
             <Route path="/nash_remodel" component={NashRemodel}/>
             <Route path="/professional_cars" component={ProfessionalCars}/>
             <Route path="/chrysler_crown_imperial" component={ChryslerCrownImperial}/>
-
-            {/*<Route component={NotFoundPage}/>*/}
         </Switch>
     );
 };

@@ -54,6 +54,9 @@ class Showroom extends Component {
 
                     <hr/>
 
+                    <table className="table">
+                        <tbody>
+
                     {this.state.showroomData.map(item => {
                         return item.category === "independents" ?
                             getDetailCode(item)
@@ -61,9 +64,15 @@ class Showroom extends Component {
                             ""
                     })}
 
+                </tbody>
+            </table>
+
                     <h2>Hearses</h2>
 
                     <hr/>
+
+                    <table className="table">
+                        <tbody>
 
                     {this.state.showroomData.map(item => {
                         return item.category === "hearses" ?
@@ -71,10 +80,14 @@ class Showroom extends Component {
                         :
                             ""
                     })}
-
+    </tbody>
+    </table>
                     <h2>Limousines</h2>
 
                     <hr/>
+
+                    <table className="table">
+                        <tbody>
 
                     {this.state.showroomData.map(item => {
                         return item.category === "limousines" ?
@@ -83,7 +96,8 @@ class Showroom extends Component {
                             ""
                     })}
 
-
+    </tbody>
+    </table>
                 </div>
 
             </section>

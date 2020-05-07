@@ -47,7 +47,7 @@ aside {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Boogaloo", sans-serif;
     text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
 }
@@ -60,16 +60,23 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: black;
     margin-bottom: 15px;
 }
 
-h3 {
-    font-size: 1.3rem;
-    color: black;
+h3, h4 {
+    font-size: 1.5rem;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: #d9112d;
 }
 
 hr {
@@ -251,7 +258,7 @@ nav.beach-div {
 }
 
 /* BS OR */
-.nav-link:hover {
+.navbar-light .navbar-nav  .nav-link:hover {
     background: rgba(255,255,255,.5);
     border-radius: 8px;
     color: #181cb3;

@@ -39,6 +39,9 @@ class Library extends Component {
 
                     <div className="container">
 
+                        <table className="table">
+                            <tbody>
+
                         {this.state.libraryData.map(item => <PhotoWithDetail key={item.title}
                                                                              title={item.title}
                                                                              description={item.description}
@@ -47,9 +50,10 @@ class Library extends Component {
                                                                              container_class_name="photo-detail"
                                                                              image_class_name="book-img"
                                                                              alt_text="Book cover of: "/>)}
-                    </div>
+                            </tbody>
+                        </table>
+                        </div>
 
-                    <div id="load-test"/>
 
                 </section>
             </React.Fragment>

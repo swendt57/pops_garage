@@ -56,7 +56,7 @@ const HeaderNav = props => {
                                     <Nav.Link eventKey="5" as={Link} to="library">The Library</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="6" as={Link} to="club_news">Club News</Nav.Link>
+                                    <Nav.Link eventKey="6" as={Link} to="links">Links</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
