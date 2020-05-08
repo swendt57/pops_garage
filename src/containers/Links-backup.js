@@ -1,8 +1,9 @@
 import React, {Component} from "react";
-import ReactHtmlParser from 'react-html-parser';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser'
 
 import PhotoWithDetailAndUrls from "../components/PhotoWithDetailAndUrls";
 
+const processString = require('react-process-string');
 
 function assembleData() {
     let data = require("../assets/data/links.json");
@@ -15,20 +16,51 @@ function assembleData() {
     return linksArray;
 }
 
-function updatePlaceholders(stringToUpdate, urls) {
-    for (let i = 0; i < urls.length; i++) {
-        let variables = urls[i];
-        stringToUpdate = stringToUpdate.replace("[" + i + "]", `<a href=\"${variables.url}\" target=\"_blank\" rel=\"noopener noreferrer\">${variables.name}</a>`);
-    }
-    return stringToUpdate;
+//TODO - figure out a way to handle multiple URLs in a description - I have taken the links out of Dave's Classics for the time being
+
+let config = [
+    {
+        regex: /(http|https:\/\/\S+\..[a-z]{3}) ( \[.{2,}])/,
+        fn: (key, result) => <span key={key}><a href={`${result[0]}`}>{result[2]}</a></span>
+        // {props.urls[0].name}
+    }]
+
+let addToHref = (key, result) => {
+    return "<span key={key}><a href={`${result[1]}://${result[2]}.${result[3]}${result[4]}`} target=\"_blank\" rel=\"noopener noreferrer\">Nash  {result[5]}</a></span>";
 }
 
+//(\[.{1,}\])
+function replacePlaceholder(text, placeholder, urls) {
+    // console.log("urls: " + urls);
+    urls.map((item, key) =>
+        console.log("URL " + item.url + " Name " + item.name)
+    )
+    // this.items = this.state.cart.map((item, key) =>
+    //     <li key={item.id}>{item.name}</li>
+    // );
+    // let regex = new RegExp(/(http|https):\/\/(\S+)\.([a-z]{2,}?)(.*?)( \[*\] )( |,|$|\.)/);
+    // let regex = new RegExp(/(http|https)(:\/\/\S+\..[a-z]{3,}?.*?)( \[.{1,}\])/);
+    // let match = text.match(regex);
+    // console.log("match: " + match);
+    // let alteredText = addToHref(5, match)
+    // let alteredText = text.replace(regex, replacement);
+    // let alteredText = processString(config)(text);
+    // let alteredText = text.replace(regex, '<span key="test"><a href="`${match[1]}${match[2]}`">{match[3]}</a></span>')
+
+    let firstText = text.replace("[0]", `<a href=\"${urls[0].url}\" target=\"_blank\" rel=\"noopener noreferrer\">${urls[0].name}</a>`);
+    console.log("first text: " + firstText);
+    console.log(firstText.match("[1]"));
+    let secondText = firstText.replace("[1]", `<a href=\"${urls[1].url}\" target=\"_blank\" rel=\"noopener noreferrer\">${urls[1].name}</a>`);
+    let alteredText = secondText.replace("[2]", `<a href=\"${urls[2].url}\" target=\"_blank\" rel=\"noopener noreferrer\">${urls[2].name}</a>`);
+    console.log("altered text: " + alteredText);
+    return alteredText;
+}
 
 function getDetailCode(item) {
     return (
         <PhotoWithDetailAndUrls key={item.title}
                          title={item.title}
-                         description={ ReactHtmlParser(updatePlaceholders(item.description, item.urls)) }
+                         description={ ReactHtmlParser(replacePlaceholder(item.description, '?',item.urls)) }
                          image_name={item.image_name}
                          image_folder="links"
                          container_class_name="photo-detail"
