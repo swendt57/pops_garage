@@ -1,7 +1,5 @@
 import React from "react";
 
-import {urlParserConfigs} from "../utilities/utils";
-
 
 const PhotoWithDetailAndUrls = props => {
 

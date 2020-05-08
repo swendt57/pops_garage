@@ -18,7 +18,7 @@ function assembleData() {
 function updatePlaceholders(stringToUpdate, urls) {
     for (let i = 0; i < urls.length; i++) {
         let variables = urls[i];
-        stringToUpdate = stringToUpdate.replace("[" + i + "]", `<a href=\"${variables.url}\" target=\"_blank\" rel=\"noopener noreferrer\">${variables.name}</a>`);
+        stringToUpdate = stringToUpdate.replace("[" + i + "]", `<a href="${variables.url}" target="_blank" rel="noopener noreferrer">${variables.name}</a>`);
     }
     return stringToUpdate;
 }
