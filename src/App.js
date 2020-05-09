@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../assets/css/styles.css';
+import './assets/css/styles.css';
 
-import HeaderNav from "../components/HeaderNav";
-import Routes from "../routes/Routes";
+import HeaderNav from "./components/HeaderNav";
+import Routes from "./routes/Routes";
 
 class App extends Component {
 
